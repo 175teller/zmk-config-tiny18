@@ -71,12 +71,12 @@
 
         lalt {
             bindings = <&kp LEFT_ALT>;
-            key-positions = <0 1 2>;
+            key-positions = <1 2>;
         };
 
         rctr {
             bindings = <&kp RCTRL>;
-            key-positions = <3 4 5>;
+            key-positions = <3 4>;
         };
 
         x {
