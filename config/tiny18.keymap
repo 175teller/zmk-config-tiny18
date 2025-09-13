@@ -95,7 +95,7 @@
         };
 
         RGUI2 {
-            bindings = <&kp RMETA>;
+            bindings = <&kp RIGHT_GUI>;
             key-positions = <5 3>;
         };
     };
