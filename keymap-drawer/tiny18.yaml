@@ -17,8 +17,8 @@ layers:
   - {t: ENTER, h: RIGHT SHIFT}
   - Z
   - G
-  - M
   - N
+  - M
   '1':
   - ''''
   - \
