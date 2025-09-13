@@ -150,4 +150,4 @@ combos:
 - p: [15, 9]
   k: V
 - p: [5, 3]
-  k: RMETA
+  k: RIGHT GUI
