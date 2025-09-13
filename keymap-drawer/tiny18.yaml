@@ -36,7 +36,7 @@ layers:
   - RIGHT SHIFT
   - ;
   - '-'
-  - RIGHT COMMAND
+  - ENTER
   - BACKSPACE
   '2':
   - {type: held}
@@ -55,7 +55,7 @@ layers:
   - RIGHT ARROW
   - TAB
   - LEFT
-  - ''''
+  - TAB
   - Gui+ENTER
   '3':
   - '1'
