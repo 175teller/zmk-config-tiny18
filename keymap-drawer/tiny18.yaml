@@ -61,17 +61,17 @@ layers:
   - '1'
   - '2'
   - '3'
-  - '='
+  - +
+  - {t: ▽, type: trans}
   - '4'
-  - {t: '*', h: '4'}
   - '7'
   - '4'
   - '5'
   - '6'
-  - '-'
+  - '*'
   - {type: held}
   - RIGHT SHIFT
-  - /
+  - {t: ▽, type: trans}
   - '8'
   - '9'
   - '0'
@@ -81,8 +81,8 @@ layers:
   - F2
   - F3
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - F7
   - F4
   - F5
@@ -130,7 +130,7 @@ combos:
 - p: [7, 8]
   k: {t: LANGUAGE 2, h: LEFT GUI}
 - p: [11, 12]
-  k: LANG1
+  k: {t: LANG1, h: RIGHT GUI}
 - p: [6, 7]
   k: LSHFT
 - p: [14, 15]
@@ -149,5 +149,3 @@ combos:
   k: C
 - p: [15, 9]
   k: V
-- p: [5, 3]
-  k: RIGHT GUI
