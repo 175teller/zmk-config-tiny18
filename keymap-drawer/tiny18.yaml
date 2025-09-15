@@ -117,16 +117,22 @@ layers:
 combos:
 - p: [1, 0]
   k: Q
+  l: [default]
 - p: [9, 7]
   k: F
+  l: [default]
 - p: [10, 9]
   k: Y
+  l: [default]
 - p: [4, 5]
   k: P
+  l: [default]
 - p: [8, 9]
   k: B
+  l: [default]
 - p: [10, 11]
   k: J
+  l: [default]
 - p: [7, 8]
   k: {t: LANGUAGE 2, h: LEFT GUI}
   l: [default]
@@ -135,19 +141,24 @@ combos:
   l: [default]
 - p: [6, 7]
   k: LSHFT
+  l: [default]
 - p: [14, 15]
   k: LCTRL
 - p: [16, 17]
   k: RIGHT ALT
 - p: [5, 13]
   k: '5'
+  l: [default]
 - p: [1, 2]
   k: LEFT ALT
 - p: [3, 4]
   k: RCTRL
 - p: [7, 14]
   k: X
+  l: [default]
 - p: [14, 8]
   k: C
+  l: [default]
 - p: [15, 9]
   k: V
+  l: [default]
