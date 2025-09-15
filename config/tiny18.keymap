@@ -45,7 +45,7 @@
         };
 
         lang1 {
-            bindings = <&kp LANG1>;
+            bindings = <&mt RIGHT_GUI LANG1>;
             key-positions = <11 12>;
         };
 
@@ -93,11 +93,6 @@
             bindings = <&kp V>;
             key-positions = <15 9>;
         };
-
-        RGUI2 {
-            bindings = <&kp RIGHT_GUI>;
-            key-positions = <5 3>;
-        };
     };
 
     keymap {
@@ -123,7 +118,7 @@
 
         layer_3 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &mo 4  &lt 4 ASTRK  &kp N7  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &trans  &kp RIGHT_SHIFT  &kp SLASH  &kp N8  &kp N9  &kp N0  &kp PERIOD
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS  &trans  &mo 4  &kp N7  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTRK  &trans  &kp RIGHT_SHIFT  &trans  &kp N8  &kp N9  &kp N0  &kp PERIOD
             >;
         };
 
