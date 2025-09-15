@@ -42,13 +42,13 @@
         lang2 {
             bindings = <&mt LEFT_GUI LANGUAGE_2>;
             key-positions = <7 8>;
-layers = <default_layer>; 
+layers = <0>; 
         };
 
         lang1 {
             bindings = <&mt RIGHT_GUI LANG1>;
             key-positions = <11 12>;
-layers = <default_layer>; 
+layers = <0>; 
         };
 
         lsft {
