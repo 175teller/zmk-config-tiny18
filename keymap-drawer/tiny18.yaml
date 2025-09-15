@@ -71,7 +71,7 @@ layers:
   - '*'
   - {type: held}
   - RIGHT SHIFT
-  - {t: ▽, type: trans}
+  - RIGHT GUI
   - '8'
   - '9'
   - '0'
