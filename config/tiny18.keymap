@@ -92,16 +92,19 @@
         x {
             bindings = <&kp X>;
             key-positions = <14 8>;
+            layers = <0>;
         };
 
         c {
             bindings = <&kp C>;
             key-positions = <15 9>;
+            layers = <0>;
         };
 
         v {
             bindings = <&kp V>;
             key-positions = <16 10>;
+            layers = <0>;
         };
     };
 
