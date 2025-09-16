@@ -48,13 +48,13 @@
         lang2 {
             bindings = <&mt LEFT_GUI LANGUAGE_2>;
             key-positions = <7 8>;
-            layers = <0>;
+            layers = <0 1 2 3 4>;
         };
 
         lang1 {
             bindings = <&mt RIGHT_GUI LANG1>;
             key-positions = <11 12>;
-            layers = <0>;
+            layers = <0 1 2 3 4>;
         };
 
         lsft {
@@ -66,11 +66,13 @@
         lctr {
             bindings = <&kp LCTRL>;
             key-positions = <14 15>;
+            layers = <0 1 2 3 4>;
         };
 
         ralt {
             bindings = <&kp RIGHT_ALT>;
             key-positions = <16 17>;
+            layers = <0 1 2 3 4>;
         };
 
         layer5 {
@@ -82,11 +84,13 @@
         lalt {
             bindings = <&kp LEFT_ALT>;
             key-positions = <1 2>;
+            layers = <0 1 2 3 4>;
         };
 
         rctr {
             bindings = <&kp RCTRL>;
             key-positions = <3 4>;
+            layers = <0 1 2 3 4>;
         };
 
         x {
