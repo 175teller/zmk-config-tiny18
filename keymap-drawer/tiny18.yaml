@@ -155,7 +155,10 @@ combos:
   k: RCTRL
 - p: [14, 8]
   k: X
+  l: [default]
 - p: [15, 9]
   k: C
+  l: [default]
 - p: [16, 10]
   k: V
+  l: [default]
