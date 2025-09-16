@@ -135,24 +135,28 @@ combos:
   l: [default]
 - p: [7, 8]
   k: {t: LANGUAGE 2, h: LEFT GUI}
-  l: [default]
+  l: [default, '1', '2', '3', '4']
 - p: [11, 12]
   k: {t: LANG1, h: RIGHT GUI}
-  l: [default]
+  l: [default, '1', '2', '3', '4']
 - p: [6, 7]
   k: LSHFT
   l: [default]
 - p: [14, 15]
   k: LCTRL
+  l: [default, '1', '2', '3', '4']
 - p: [16, 17]
   k: RIGHT ALT
+  l: [default, '1', '2', '3', '4']
 - p: [5, 13]
   k: '5'
   l: [default]
 - p: [1, 2]
   k: LEFT ALT
+  l: [default, '1', '2', '3', '4']
 - p: [3, 4]
   k: RCTRL
+  l: [default, '1', '2', '3', '4']
 - p: [14, 8]
   k: X
   l: [default]
