@@ -190,19 +190,19 @@ path.combo {
 <text x="0" y="0" class="key tap">ENTER</text>
 <text x="0" y="26" class="key hold"><tspan style="font-size: 64%">RIGHT SHIFT</tspan></text>
 </g>
-<g transform="translate(210, 150)" class="key keypos-14">
+<g transform="translate(180, 150)" class="key keypos-14">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">Z</text>
 </g>
-<g transform="translate(270, 150)" class="key keypos-15">
+<g transform="translate(240, 150)" class="key keypos-15">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">G</text>
 </g>
-<g transform="translate(390, 150)" class="key keypos-16">
+<g transform="translate(420, 150)" class="key keypos-16">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">N</text>
 </g>
-<g transform="translate(450, 150)" class="key keypos-17">
+<g transform="translate(480, 150)" class="key keypos-17">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">M</text>
 </g>
@@ -251,13 +251,13 @@ path.combo {
 <text x="60" y="90" class="combo tap">LSHFT</text>
 </g>
 <g class="combo combopos-9">
-<rect rx="6" ry="6" x="226" y="137" width="28" height="26" class="combo"/>
-<text x="240" y="150" class="combo tap">LCTRL</text>
+<rect rx="6" ry="6" x="196" y="137" width="28" height="26" class="combo"/>
+<text x="210" y="150" class="combo tap">LCTRL</text>
 </g>
 <g class="combo combopos-10">
-<rect rx="6" ry="6" x="406" y="137" width="28" height="26" class="combo"/>
-<text x="420" y="150" class="combo tap">
-<tspan x="420" dy="-0.6em">RIGHT</tspan><tspan x="420" dy="1.2em">ALT</tspan>
+<rect rx="6" ry="6" x="436" y="137" width="28" height="26" class="combo"/>
+<text x="450" y="150" class="combo tap">
+<tspan x="450" dy="-0.6em">RIGHT</tspan><tspan x="450" dy="1.2em">ALT</tspan>
 </text>
 </g>
 <g class="combo combopos-11">
@@ -276,16 +276,16 @@ path.combo {
 <text x="480" y="30" class="combo tap">RCTRL</text>
 </g>
 <g class="combo combopos-14">
-<rect rx="6" ry="6" x="166" y="107" width="28" height="26" class="combo"/>
-<text x="180" y="120" class="combo tap">X</text>
+<rect rx="6" ry="6" x="151" y="107" width="28" height="26" class="combo"/>
+<text x="165" y="120" class="combo tap">X</text>
 </g>
 <g class="combo combopos-15">
-<rect rx="6" ry="6" x="226" y="107" width="28" height="26" class="combo"/>
-<text x="240" y="120" class="combo tap">C</text>
+<rect rx="6" ry="6" x="211" y="107" width="28" height="26" class="combo"/>
+<text x="225" y="120" class="combo tap">C</text>
 </g>
 <g class="combo combopos-16">
-<rect rx="6" ry="6" x="406" y="107" width="28" height="26" class="combo"/>
-<text x="420" y="120" class="combo tap">V</text>
+<rect rx="6" ry="6" x="421" y="107" width="28" height="26" class="combo"/>
+<text x="435" y="120" class="combo tap">V</text>
 </g>
 </g>
 </g>
@@ -353,19 +353,19 @@ path.combo {
 <tspan x="0" dy="-0.6em">RIGHT</tspan><tspan x="0" dy="1.2em">SHIFT</tspan>
 </text>
 </g>
-<g transform="translate(210, 150)" class="key keypos-14">
+<g transform="translate(180, 150)" class="key keypos-14">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">;</text>
 </g>
-<g transform="translate(270, 150)" class="key keypos-15">
+<g transform="translate(240, 150)" class="key keypos-15">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">-</text>
 </g>
-<g transform="translate(390, 150)" class="key keypos-16">
+<g transform="translate(420, 150)" class="key keypos-16">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">ENTER</text>
 </g>
-<g transform="translate(450, 150)" class="key keypos-17">
+<g transform="translate(480, 150)" class="key keypos-17">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
 </g>
@@ -382,13 +382,13 @@ path.combo {
 <text x="540" y="101" class="combo hold"><tspan style="font-size: 78%">RIGHT GUI</tspan></text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="226" y="137" width="28" height="26" class="combo"/>
-<text x="240" y="150" class="combo tap">LCTRL</text>
+<rect rx="6" ry="6" x="196" y="137" width="28" height="26" class="combo"/>
+<text x="210" y="150" class="combo tap">LCTRL</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="406" y="137" width="28" height="26" class="combo"/>
-<text x="420" y="150" class="combo tap">
-<tspan x="420" dy="-0.6em">RIGHT</tspan><tspan x="420" dy="1.2em">ALT</tspan>
+<rect rx="6" ry="6" x="436" y="137" width="28" height="26" class="combo"/>
+<text x="450" y="150" class="combo tap">
+<tspan x="450" dy="-0.6em">RIGHT</tspan><tspan x="450" dy="1.2em">ALT</tspan>
 </text>
 </g>
 <g class="combo combopos-4">
@@ -473,19 +473,19 @@ path.combo {
 <tspan x="0" dy="-0.6em">RIGHT</tspan><tspan x="0" dy="1.2em">ARROW</tspan>
 </text>
 </g>
-<g transform="translate(210, 150)" class="key keypos-14">
+<g transform="translate(180, 150)" class="key keypos-14">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">TAB</text>
 </g>
-<g transform="translate(270, 150)" class="key keypos-15">
+<g transform="translate(240, 150)" class="key keypos-15">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">LEFT</text>
 </g>
-<g transform="translate(390, 150)" class="key keypos-16">
+<g transform="translate(420, 150)" class="key keypos-16">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">TAB</text>
 </g>
-<g transform="translate(450, 150)" class="key keypos-17">
+<g transform="translate(480, 150)" class="key keypos-17">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">
 <tspan x="0" dy="-0.6em">Gui+</tspan><tspan x="0" dy="1.2em">ENTER</tspan>
@@ -504,13 +504,13 @@ path.combo {
 <text x="540" y="101" class="combo hold"><tspan style="font-size: 78%">RIGHT GUI</tspan></text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="226" y="137" width="28" height="26" class="combo"/>
-<text x="240" y="150" class="combo tap">LCTRL</text>
+<rect rx="6" ry="6" x="196" y="137" width="28" height="26" class="combo"/>
+<text x="210" y="150" class="combo tap">LCTRL</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="406" y="137" width="28" height="26" class="combo"/>
-<text x="420" y="150" class="combo tap">
-<tspan x="420" dy="-0.6em">RIGHT</tspan><tspan x="420" dy="1.2em">ALT</tspan>
+<rect rx="6" ry="6" x="436" y="137" width="28" height="26" class="combo"/>
+<text x="450" y="150" class="combo tap">
+<tspan x="450" dy="-0.6em">RIGHT</tspan><tspan x="450" dy="1.2em">ALT</tspan>
 </text>
 </g>
 <g class="combo combopos-4">
@@ -593,19 +593,19 @@ path.combo {
 <tspan x="0" dy="-0.6em">RIGHT</tspan><tspan x="0" dy="1.2em">GUI</tspan>
 </text>
 </g>
-<g transform="translate(210, 150)" class="key keypos-14">
+<g transform="translate(180, 150)" class="key keypos-14">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">8</text>
 </g>
-<g transform="translate(270, 150)" class="key keypos-15">
+<g transform="translate(240, 150)" class="key keypos-15">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">9</text>
 </g>
-<g transform="translate(390, 150)" class="key keypos-16">
+<g transform="translate(420, 150)" class="key keypos-16">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">0</text>
 </g>
-<g transform="translate(450, 150)" class="key keypos-17">
+<g transform="translate(480, 150)" class="key keypos-17">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">.</text>
 </g>
@@ -622,13 +622,13 @@ path.combo {
 <text x="540" y="101" class="combo hold"><tspan style="font-size: 78%">RIGHT GUI</tspan></text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="226" y="137" width="28" height="26" class="combo"/>
-<text x="240" y="150" class="combo tap">LCTRL</text>
+<rect rx="6" ry="6" x="196" y="137" width="28" height="26" class="combo"/>
+<text x="210" y="150" class="combo tap">LCTRL</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="406" y="137" width="28" height="26" class="combo"/>
-<text x="420" y="150" class="combo tap">
-<tspan x="420" dy="-0.6em">RIGHT</tspan><tspan x="420" dy="1.2em">ALT</tspan>
+<rect rx="6" ry="6" x="436" y="137" width="28" height="26" class="combo"/>
+<text x="450" y="150" class="combo tap">
+<tspan x="450" dy="-0.6em">RIGHT</tspan><tspan x="450" dy="1.2em">ALT</tspan>
 </text>
 </g>
 <g class="combo combopos-4">
@@ -700,19 +700,19 @@ path.combo {
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(210, 150)" class="key keypos-14">
+<g transform="translate(180, 150)" class="key keypos-14">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">F8</text>
 </g>
-<g transform="translate(270, 150)" class="key keypos-15">
+<g transform="translate(240, 150)" class="key keypos-15">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">F9</text>
 </g>
-<g transform="translate(390, 150)" class="key keypos-16">
+<g transform="translate(420, 150)" class="key keypos-16">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">F10</text>
 </g>
-<g transform="translate(450, 150)" class="key keypos-17">
+<g transform="translate(480, 150)" class="key keypos-17">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">F11</text>
 </g>
@@ -729,13 +729,13 @@ path.combo {
 <text x="540" y="101" class="combo hold"><tspan style="font-size: 78%">RIGHT GUI</tspan></text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="226" y="137" width="28" height="26" class="combo"/>
-<text x="240" y="150" class="combo tap">LCTRL</text>
+<rect rx="6" ry="6" x="196" y="137" width="28" height="26" class="combo"/>
+<text x="210" y="150" class="combo tap">LCTRL</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="406" y="137" width="28" height="26" class="combo"/>
-<text x="420" y="150" class="combo tap">
-<tspan x="420" dy="-0.6em">RIGHT</tspan><tspan x="420" dy="1.2em">ALT</tspan>
+<rect rx="6" ry="6" x="436" y="137" width="28" height="26" class="combo"/>
+<text x="450" y="150" class="combo tap">
+<tspan x="450" dy="-0.6em">RIGHT</tspan><tspan x="450" dy="1.2em">ALT</tspan>
 </text>
 </g>
 <g class="combo combopos-4">
@@ -816,19 +816,19 @@ path.combo {
 <g transform="translate(630, 90)" class="key held keypos-13">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key held"/>
 </g>
-<g transform="translate(210, 150)" class="key trans keypos-14">
+<g transform="translate(180, 150)" class="key trans keypos-14">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(270, 150)" class="key trans keypos-15">
+<g transform="translate(240, 150)" class="key trans keypos-15">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(390, 150)" class="key trans keypos-16">
+<g transform="translate(420, 150)" class="key trans keypos-16">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(450, 150)" class="key trans keypos-17">
+<g transform="translate(480, 150)" class="key trans keypos-17">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
