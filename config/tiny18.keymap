@@ -83,13 +83,13 @@
 
         lalt {
             bindings = <&kp LEFT_ALT>;
-            key-positions = <1 2>;
+            key-positions = <1 2 0>;
             layers = <0 1 2 3 4>;
         };
 
         rctr {
             bindings = <&kp RCTRL>;
-            key-positions = <3 4>;
+            key-positions = <3 4 5>;
             layers = <0 1 2 3 4>;
         };
 
