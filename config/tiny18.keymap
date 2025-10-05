@@ -15,15 +15,15 @@
             layers = <0>;
         };
 
-        f {
-            bindings = <&kp F>;
-            key-positions = <9 7>;
+        t {
+            bindings = <&kp T>;
+            key-positions = <1 2>;
             layers = <0>;
         };
 
         y {
             bindings = <&kp Y>;
-            key-positions = <10 9>;
+            key-positions = <3 4>;
             layers = <0>;
         };
 
@@ -35,7 +35,7 @@
 
         b {
             bindings = <&kp B>;
-            key-positions = <8 9>;
+            key-positions = <9 15>;
             layers = <0>;
         };
 
@@ -47,7 +47,7 @@
 
         lang2 {
             bindings = <&mt LEFT_GUI LANGUAGE_2>;
-            key-positions = <7 8>;
+            key-positions = <17 11>;
             layers = <0 1 2 3 4>;
         };
 
@@ -57,21 +57,21 @@
             layers = <0 1 2 3 4>;
         };
 
-        lsft {
-            timeout-ms = <35>; 
-            bindings = <&kp LSHFT>;
+        tab {
+            timeout-ms = <35>;
+            bindings = <&kp TAB>;
             key-positions = <6 7>;
             layers = <0>;
         };
 
-        lctr {
-            bindings = <&kp LCTRL>;
-            key-positions = <14 15>;
+        del {
+            bindings = <&kp DELETE>;
+            key-positions = <10 16>;
             layers = <0 1 2 3 4>;
         };
 
-        ralt {
-            bindings = <&kp RIGHT_ALT>;
+        backspace {
+            bindings = <&kp BACKSPACE>;
             key-positions = <16 17>;
             layers = <0 1 2 3 4>;
         };
@@ -82,33 +82,21 @@
             layers = <0>;
         };
 
-        lalt {
-            bindings = <&kp LEFT_ALT>;
-            key-positions = <1 2 0>;
-            layers = <0 1 2 3 4>;
-        };
-
-        rctr {
-            bindings = <&kp RCTRL>;
-            key-positions = <3 4 5>;
-            layers = <0 1 2 3 4>;
-        };
-
         x {
             bindings = <&kp X>;
-            key-positions = <14 8>;
+            key-positions = <14 15>;
             layers = <0>;
         };
 
         c {
             bindings = <&kp C>;
-            key-positions = <15 9>;
+            key-positions = <9 8>;
             layers = <0>;
         };
 
-        v {
-            bindings = <&kp V>;
-            key-positions = <16 10>;
+        f {
+            bindings = <&kp F>;
+            key-positions = <7 8>;
             layers = <0>;
         };
     };
@@ -118,7 +106,7 @@
 
         default_layer {
             bindings = <
-&lt 2 W  &kp E  &kp R  &kp U  &kp I  &kp O  &kp A  &kp S  &kp D  &kp T  &kp H  &lt 3 K  &lt 1 L  &mt RIGHT_SHIFT ENTER  &kp Z  &kp G  &kp N  &kp M
+&lt 2 W  &kp E  &kp R  &kp U  &kp I  &lt 4 O  &mt LCTRL A  &mt LCTRL S  &mt LEFT_WIN D  &mt LEFT_ALT G  &kp H  &lt 3 K  &lt 1 L  &mt RIGHT_SHIFT ENTER  &kp Z  &kp V  &kp N  &kp M
             >;
         };
 
