@@ -40,15 +40,15 @@ layers:
   - BACKSPACE
   '2':
   - {type: held}
-  - UP ARROW
+  - UP
   - LEFT ALT
   - '&mkp MB1'
   - '&mmv MOVE_UP'
   - '&mkp MB2'
   - TAB
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
+  - LEFT
+  - DOWN
+  - RIGHT
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
