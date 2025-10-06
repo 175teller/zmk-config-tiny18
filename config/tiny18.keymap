@@ -137,7 +137,7 @@
 
         layer_2 {
             bindings = <
-&trans  &kp UP_ARROW  &kp LEFT_ALT  &mkp MB1  &mmv MOVE_UP  &mkp MB2  &kp TAB  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp RIGHT_WIN  &kp HOME  &kp END  &msc SCRL_UP  &msc SCRL_DOWN
+&trans  &kp UP  &kp LEFT_ALT  &mkp MB1  &mmv MOVE_UP  &mkp MB2  &kp TAB  &kp LEFT  &kp DOWN  &kp RIGHT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp RIGHT_WIN  &kp HOME  &kp END  &msc SCRL_UP  &msc SCRL_DOWN
             >;
         };
 
