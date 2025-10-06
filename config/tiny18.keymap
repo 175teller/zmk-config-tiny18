@@ -109,13 +109,13 @@
 
         layer2_right_scroll {
             bindings = <&msc SCRL_RIGHT>;
-            key-positions = <1 9>;
+            key-positions = <12 11>;
             layers = <2>;
         };
 
         layer2_left_scroll {
             bindings = <&msc SCRL_LEFT>;
-            key-positions = <1 7>;
+            key-positions = <10 11>;
             layers = <2>;
         };
     };
@@ -125,7 +125,7 @@
 
         default_layer {
             bindings = <
-&lt 2 W  &kp E  &kp R  &kp U  &kp I  &lt 4 O  &mt LCTRL A  &mt LCTRL S  &mt LEFT_WIN D  &mt LEFT_ALT G  &kp H  &lt 3 K  &lt 1 L  &mt RIGHT_SHIFT ENTER  &kp Z  &kp V  &kp N  &kp M
+&lt 2 W  &kp E  &kp R  &kp U  &kp I  &lt 4 O  &mt LCTRL A  &mt LCTRL S  &mt LEFT_WIN D  &mt LEFT_ALT G  &mt RIGHT_SHIFT H  &lt 3 K  &lt 1 L  &mt RIGHT_SHIFT ENTER  &kp Z  &kp V  &kp N  &kp M
             >;
         };
 
@@ -137,25 +137,25 @@
 
         layer_2 {
             bindings = <
-&trans  &msc SCRL_UP  &msc SCRL_DOWN  &kp RIGHT_WIN  &kp RIGHT_ALT  &kp TAB  &mmv MOVE_LEFT  &mkp MB1  &mmv MOVE_UP  &mkp MB2  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp HOME  &kp RG(END)
+&trans  &kp UP_ARROW  &kp LEFT_ALT  &mkp MB1  &mmv MOVE_UP  &mkp MB2  &kp TAB  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp RIGHT_WIN  &kp HOME  &kp END  &msc SCRL_UP  &msc SCRL_DOWN
             >;
         };
 
         layer_3 {
             bindings = <
-&kp N7  &kp N8  &kp N9  &kp N0  &kp PLUS  &kp ASTRK  &kp N1  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH  &trans  &kp RIGHT_SHIFT  &kp RIGHT_WIN  &kp N2  &kp N3  &kp COMMA  &kp PERIOD
+&kp N7  &kp N8  &kp N9  &kp N0  &kp PLUS  &kp ASTRK  &kp N1  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH  &trans  &kp RIGHT_WIN  &kp RIGHT_SHIFT  &kp N2  &kp N3  &kp COMMA  &kp PERIOD
             >;
         };
 
         layer_4 {
             bindings = <
-&kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &trans  &kp F1  &kp F4  &kp F5  &kp F6  &kp F12  &kp RIGHT_ALT  &kp RIGHT_SHIFT  &kp RIGHT_WIN  &kp F2  &kp F3  &kp RCTRL  &kp DELETE
+&kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &trans  &kp F1  &kp F4  &kp F5  &kp F6  &kp F12  &kp RIGHT_ALT  &kp RIGHT_WIN  &kp RIGHT_SHIFT  &kp F2  &kp F3  &kp RCTRL  &kp DELETE
             >;
         };
 
         layer_5 {
             bindings = <
-&bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &bootloader  &bt BT_DISC 3  &bt BT_DISC 4  &bt BT_CLR  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &trans  &sys_reset  &bt BT_CLR_ALL  &bt BT_SEL 4  &trans
+&bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &bt BT_DISC 3  &bt BT_DISC 4  &trans  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &trans  &bt BT_CLR  &bt BT_CLR_ALL  &bt BT_SEL 4  &trans
             >;
         };
     };
