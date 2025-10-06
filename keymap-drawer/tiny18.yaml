@@ -11,7 +11,7 @@ layers:
   - {t: S, h: LCTRL}
   - {t: D, h: LEFT WIN}
   - {t: G, h: LEFT ALT}
-  - H
+  - {t: H, h: RIGHT SHIFT}
   - {t: K, h: '3'}
   - {t: L, h: '1'}
   - {t: ENTER, h: RIGHT SHIFT}
@@ -40,23 +40,23 @@ layers:
   - BACKSPACE
   '2':
   - {type: held}
-  - '&msc SCRL_UP'
-  - '&msc SCRL_DOWN'
-  - RIGHT WIN
-  - RIGHT ALT
-  - TAB
-  - '&mmv MOVE_LEFT'
+  - UP ARROW
+  - LEFT ALT
   - '&mkp MB1'
   - '&mmv MOVE_UP'
   - '&mkp MB2'
+  - TAB
   - LEFT ARROW
   - DOWN ARROW
-  - UP ARROW
   - RIGHT ARROW
+  - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
+  - RIGHT WIN
   - HOME
-  - Gui+END
+  - END
+  - '&msc SCRL_UP'
+  - '&msc SCRL_DOWN'
   '3':
   - '7'
   - '8'
@@ -70,8 +70,8 @@ layers:
   - '6'
   - /
   - {type: held}
-  - RIGHT SHIFT
   - RIGHT WIN
+  - RIGHT SHIFT
   - '2'
   - '3'
   - ','
@@ -89,8 +89,8 @@ layers:
   - F6
   - F12
   - RIGHT ALT
-  - RIGHT SHIFT
   - RIGHT WIN
+  - RIGHT SHIFT
   - F2
   - F3
   - RCTRL
@@ -102,15 +102,15 @@ layers:
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {type: held}
-  - '&bootloader'
+  - {t: ▽, type: trans}
   - {t: BT DISC, h: '3'}
   - {t: BT DISC, h: '4'}
-  - BT CLR
+  - {t: ▽, type: trans}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: ▽, type: trans}
   - {type: held}
-  - '&sys_reset'
+  - BT CLR
   - BT CLR ALL
   - {t: BT, h: '4'}
   - {t: ▽, type: trans}
@@ -163,9 +163,9 @@ combos:
 - p: [10, 16]
   k: DELETE
   l: ['1']
-- p: [1, 9]
+- p: [12, 11]
   k: '&msc SCRL_RIGHT'
   l: ['2']
-- p: [1, 7]
+- p: [10, 11]
   k: '&msc SCRL_LEFT'
   l: ['2']
