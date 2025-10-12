@@ -16,20 +16,20 @@
             layers = <0>;
         };
 
-        t {
-            bindings = <&kp T>;
+        w {
+            bindings = <&kp W>;
             key-positions = <1 2>;
-            layers = <0>;
-        };
-
-        y {
-            bindings = <&kp Y>;
-            key-positions = <3 4>;
             layers = <0>;
         };
 
         p {
             bindings = <&kp P>;
+            key-positions = <3 4>;
+            layers = <0>;
+        };
+
+        l {
+            bindings = <&kp L>;
             key-positions = <4 5>;
             layers = <0>;
         };
@@ -79,7 +79,7 @@
 
         layer5 {
             bindings = <&mo 5>;
-            key-positions = <5 13>;
+            key-positions = <13 6>;
             layers = <0>;
         };
 
@@ -101,7 +101,7 @@
             layers = <0>;
         };
 
-        layer1_tab {
+        layer1_del {
             bindings = <&kp DELETE>;
             key-positions = <10 16>;
             layers = <1>;
@@ -109,13 +109,91 @@
 
         layer2_right_scroll {
             bindings = <&msc SCRL_RIGHT>;
-            key-positions = <12 11>;
+            key-positions = <16 17>;
             layers = <2>;
         };
 
         layer2_left_scroll {
             bindings = <&msc SCRL_LEFT>;
-            key-positions = <10 11>;
+            key-positions = <14 15>;
+            layers = <2>;
+        };
+
+        backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <0 2>;
+            layers = <0>;
+        };
+
+        slash {
+            bindings = <&kp SLASH>;
+            key-positions = <3 5>;
+            layers = <0>;
+        };
+
+        semicolon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <0 7>;
+            layers = <0>;
+        };
+
+        comma {
+            bindings = <&kp COMMA>;
+            key-positions = <2 9>;
+            layers = <0>;
+        };
+
+        period {
+            bindings = <&kp PERIOD>;
+            key-positions = <3 10>;
+            layers = <0>;
+        };
+
+        left {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <7 9>;
+            layers = <0>;
+        };
+
+        right {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <10 12>;
+            layers = <0>;
+        };
+
+        space {
+            bindings = <&kp SPACE>;
+            key-positions = <12 13>;
+            layers = <0>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <8 14>;
+            layers = <0>;
+        };
+
+        n2 {
+            bindings = <&kp N2>;
+            key-positions = <7 14>;
+            layers = <0>;
+        };
+
+        layer2_up_scroll {
+            bindings = <&msc SCRL_UP>;
+            key-positions = <9 10>;
+            layers = <2>;
+        };
+
+        layer2_down_scroll {
+            bindings = <&msc SCRL_DOWN>;
+            key-positions = <15 16>;
+            layers = <2>;
+        };
+
+        layer2_mb3 {
+            bindings = <&mkp MB3>;
+            key-positions = <14 17>;
             layers = <2>;
         };
     };
@@ -125,19 +203,19 @@
 
         default_layer {
             bindings = <
-&lt 2 W  &kp E  &kp R  &kp U  &kp I  &lt 4 O  &mt LCTRL A  &mt LCTRL S  &mt LEFT_WIN D  &mt LEFT_ALT G  &mt RIGHT_SHIFT H  &lt 3 K  &lt 1 L  &mt RIGHT_SHIFT ENTER  &kp Z  &kp V  &kp N  &kp M
+&kp E  &kp R  &kp T  &lt 1 Y  &kp U  &lt 2 I  &mt LCTRL A  &mt LCTRL S  &mt LEFT_WIN D  &mt LEFT_ALT G  &kp H  &lt 3 K  &kp O  &mt RIGHT_SHIFT ENTER  &kp Z  &kp V  &lt 4 N  &mt RIGHT_SHIFT M
             >;
         };
 
         layer_1 {
             bindings = <
-&kp SINGLE_QUOTE  &kp BACKSLASH  &kp EQUAL  &kp SLASH  &kp GRAVE  &kp RIGHT_WIN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA  &kp PERIOD  &kp SPACE  &kp RIGHT_ALT  &trans  &kp RIGHT_SHIFT  &kp SEMICOLON  &kp MINUS  &kp ENTER  &kp BACKSPACE
+&kp SINGLE_QUOTE  &kp BACKSLASH  &kp EQUAL  &trans  &kp GRAVE  &kp BACKSPACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA  &kp PERIOD  &kp SLASH  &kp RIGHT_ALT  &kp RIGHT_WIN  &kp RIGHT_SHIFT  &kp SEMICOLON  &kp MINUS  &kp SPACE  &kp ENTER
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &kp UP  &kp LEFT_ALT  &mkp MB1  &mmv MOVE_UP  &mkp MB2  &kp TAB  &kp LEFT  &kp DOWN  &kp RIGHT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp RIGHT_WIN  &kp HOME  &kp END  &msc SCRL_UP  &msc SCRL_DOWN
+&kp HOME  &kp UP_ARROW  &mt LEFT_ALT END  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &kp TAB  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &kp RIGHT_WIN  &kp RIGHT_SHIFT  &mkp MB4  &mkp MB5  &mkp MB1  &mkp MB2
             >;
         };
 
@@ -149,13 +227,13 @@
 
         layer_4 {
             bindings = <
-&kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &trans  &kp F1  &kp F4  &kp F5  &kp F6  &kp F12  &kp RIGHT_ALT  &kp RIGHT_WIN  &kp RIGHT_SHIFT  &kp F2  &kp F3  &kp RCTRL  &kp DELETE
+&kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp DELETE  &kp F1  &kp F4  &kp F5  &kp F6  &kp F12  &kp RIGHT_ALT  &kp RIGHT_WIN  &kp RIGHT_SHIFT  &kp F2  &kp F3  &trans  &kp RCTRL
             >;
         };
 
         layer_5 {
             bindings = <
-&bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &bt BT_DISC 3  &bt BT_DISC 4  &trans  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &trans  &bt BT_CLR  &bt BT_CLR_ALL  &bt BT_SEL 4  &trans
+&kp C_VOLUME_UP  &kp K_MUTE  &kp C_VOLUME_DOWN  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 4  &trans  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp K_LOCK  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
