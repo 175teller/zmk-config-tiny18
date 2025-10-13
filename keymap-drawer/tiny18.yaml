@@ -97,15 +97,15 @@ layers:
   - RCTRL
   '5':
   - VOLUME UP
-  - MUTE
+  - AL MY COMPUTER
   - VOLUME DOWN
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '4'}
   - {type: held}
-  - AC DESKTOP SHOW ALL WINDOWS
-  - LOCK
-  - AC DESKTOP SHOW ALL APPLICATIONS
+  - AL WWW
+  - AC UNDO
+  - AC REDO
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - BT CLR
