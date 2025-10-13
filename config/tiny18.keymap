@@ -233,7 +233,7 @@
 
         layer_5 {
             bindings = <
-&kp C_VOLUME_UP  &kp K_MUTE  &kp C_VOLUME_DOWN  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 4  &trans  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp K_LOCK  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR  &trans  &trans  &trans  &trans  &trans
+&kp C_VOLUME_UP  &kp C_AL_MY_COMPUTER  &kp C_VOLUME_DOWN  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 4  &trans  &kp C_AL_WWW  &kp C_AC_UNDO  &kp C_AC_REDO  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
