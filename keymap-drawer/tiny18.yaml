@@ -4,7 +4,7 @@ layers:
   - E
   - R
   - T
-  - {t: Y, h: '1'}
+  - {t: Y, h: '4'}
   - U
   - {t: I, h: '2'}
   - {t: A, h: LCTRL}
@@ -12,34 +12,34 @@ layers:
   - {t: D, h: LEFT WIN}
   - {t: G, h: LEFT ALT}
   - H
-  - {t: K, h: '3'}
+  - {t: K, h: '1'}
   - O
   - {t: ENTER, h: RIGHT SHIFT}
   - Z
   - V
-  - {t: N, h: '4'}
+  - {t: N, h: '3'}
   - {t: M, h: RIGHT SHIFT}
   '1':
-  - ''''
-  - \
-  - '='
-  - {type: held}
-  - '`'
-  - BACKSPACE
-  - '['
-  - ']'
-  - ','
-  - .
-  - /
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - RIGHT ALT
+  - DELETE
+  - {t: '1', h: LCTRL}
+  - {t: '4', h: LCTRL}
+  - {t: '5', h: LEFT WIN}
+  - {t: '6', h: LEFT ALT}
+  - RCTRL
+  - {type: held}
   - RIGHT WIN
   - RIGHT SHIFT
-  - ;
-  - '-'
-  - SPACE
+  - '2'
+  - '3'
+  - BACKSPACE
   - ENTER
   '2':
-  - HOME
+  - {t: HOME, h: LCTRL}
   - UP ARROW
   - {t: END, h: LEFT ALT}
   - '&mmv MOVE_UP'
@@ -58,43 +58,43 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   '3':
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - +
-  - '*'
-  - '1'
-  - '4'
-  - '5'
-  - '6'
-  - /
-  - {type: held}
-  - RIGHT WIN
-  - RIGHT SHIFT
-  - '2'
-  - '3'
-  - ','
-  - .
-  '4':
   - F7
   - F8
   - F9
   - F10
   - F11
-  - DELETE
+  - F12
   - F1
   - F4
   - F5
   - F6
-  - F12
+  - RCTRL
   - RIGHT ALT
   - RIGHT WIN
   - RIGHT SHIFT
   - F2
   - F3
   - {type: held}
-  - RCTRL
+  - DELETE
+  '4':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   '5':
   - VOLUME UP
   - AL MY COMPUTER
@@ -160,15 +160,6 @@ combos:
 - p: [7, 8]
   k: F
   l: [default]
-- p: [10, 16]
-  k: DELETE
-  l: ['1']
-- p: [16, 17]
-  k: '&msc SCRL_RIGHT'
-  l: ['2']
-- p: [14, 15]
-  k: '&msc SCRL_LEFT'
-  l: ['2']
 - p: [0, 2]
   k: \
   l: [default]
@@ -176,7 +167,7 @@ combos:
   k: /
   l: [default]
 - p: [0, 7]
-  k: ;
+  k: '`'
   l: [default]
 - p: [2, 9]
   k: ','
@@ -197,13 +188,64 @@ combos:
   k: '-'
   l: [default]
 - p: [7, 14]
-  k: '2'
+  k: '='
   l: [default]
+- p: [15, 7]
+  k: +
+  l: [default]
+- p: [17, 10]
+  k: ;
+  l: [default]
+- p: [9, 14]
+  k: '*'
+  l: [default]
+- p: [5, 12]
+  k: ''''
+  l: [default]
+- p: [12, 13]
+  k: SPACE
+  l: ['1']
+- p: [0, 1]
+  k: ','
+  l: ['1']
+- p: [1, 2]
+  k: .
+  l: ['1']
+- p: [7, 8]
+  k: ;
+  l: ['1']
+- p: [8, 9]
+  k: \
+  l: ['1']
+- p: [7, 15]
+  k: +
+  l: ['1']
+- p: [7, 14]
+  k: '='
+  l: ['1']
+- p: [8, 14]
+  k: '-'
+  l: ['1']
+- p: [9, 14]
+  k: '*'
+  l: ['1']
+- p: [9, 15]
+  k: /
+  l: ['1']
+- p: [16, 17]
+  k: ESCAPE
+  l: ['1']
 - p: [9, 10]
   k: '&msc SCRL_UP'
   l: ['2']
 - p: [15, 16]
   k: '&msc SCRL_DOWN'
+  l: ['2']
+- p: [15, 14]
+  k: '&msc SCRL_LEFT'
+  l: ['2']
+- p: [16, 17]
+  k: '&msc SCRL_RIGHT'
   l: ['2']
 - p: [14, 17]
   k: '&mkp MB3'
