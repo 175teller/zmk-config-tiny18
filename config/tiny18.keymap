@@ -101,24 +101,6 @@
             layers = <0>;
         };
 
-        layer1_del {
-            bindings = <&kp DELETE>;
-            key-positions = <10 16>;
-            layers = <1>;
-        };
-
-        layer2_right_scroll {
-            bindings = <&msc SCRL_RIGHT>;
-            key-positions = <16 17>;
-            layers = <2>;
-        };
-
-        layer2_left_scroll {
-            bindings = <&msc SCRL_LEFT>;
-            key-positions = <14 15>;
-            layers = <2>;
-        };
-
         backslash {
             bindings = <&kp BACKSLASH>;
             key-positions = <0 2>;
@@ -131,8 +113,8 @@
             layers = <0>;
         };
 
-        semicolon {
-            bindings = <&kp SEMICOLON>;
+        grave {
+            bindings = <&kp GRAVE>;
             key-positions = <0 7>;
             layers = <0>;
         };
@@ -173,21 +155,123 @@
             layers = <0>;
         };
 
-        n2 {
-            bindings = <&kp N2>;
+        equal {
+            bindings = <&kp EQUAL>;
             key-positions = <7 14>;
             layers = <0>;
         };
 
-        layer2_up_scroll {
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <15 7>;
+            layers = <0>;
+        };
+
+        semicolon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <17 10>;
+            layers = <0>;
+        };
+
+        asterisk {
+            bindings = <&kp ASTERISK>;
+            key-positions = <9 14>;
+            layers = <0>;
+        };
+
+        quote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <5 12>;
+            layers = <0>;
+        };
+
+        layer1_space {
+            bindings = <&kp SPACE>;
+            key-positions = <12 13>;
+            layers = <1>;
+        };
+
+        layer1_comma {
+            bindings = <&kp COMMA>;
+            key-positions = <0 1>;
+            layers = <1>;
+        };
+
+        layer1_period {
+            bindings = <&kp PERIOD>;
+            key-positions = <1 2>;
+            layers = <1>;
+        };
+
+        layer1_semicolon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <7 8>;
+            layers = <1>;
+        };
+
+        layer1_backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <8 9>;
+            layers = <1>;
+        };
+
+        layer1_plus {
+            bindings = <&kp PLUS>;
+            key-positions = <7 15>;
+            layers = <1>;
+        };
+
+        layer1_equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <7 14>;
+            layers = <1>;
+        };
+
+        layer1_minus {
+            bindings = <&kp MINUS>;
+            key-positions = <8 14>;
+            layers = <1>;
+        };
+
+        layer1_asterisk {
+            bindings = <&kp ASTERISK>;
+            key-positions = <9 14>;
+            layers = <1>;
+        };
+
+        layer1_slash {
+            bindings = <&kp SLASH>;
+            key-positions = <9 15>;
+            layers = <1>;
+        };
+
+        layer1_escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <16 17>;
+            layers = <1>;
+        };
+
+        layer2_scrlup {
             bindings = <&msc SCRL_UP>;
             key-positions = <9 10>;
             layers = <2>;
         };
 
-        layer2_down_scroll {
+        layer2_scrldown {
             bindings = <&msc SCRL_DOWN>;
             key-positions = <15 16>;
+            layers = <2>;
+        };
+
+        layer2_scrlleft {
+            bindings = <&msc SCRL_LEFT>;
+            key-positions = <15 14>;
+            layers = <2>;
+        };
+
+        layer2_scrlright {
+            bindings = <&msc SCRL_RIGHT>;
+            key-positions = <16 17>;
             layers = <2>;
         };
 
@@ -203,31 +287,31 @@
 
         default_layer {
             bindings = <
-&kp E  &kp R  &kp T  &lt 1 Y  &kp U  &lt 2 I  &mt LCTRL A  &mt LCTRL S  &mt LEFT_WIN D  &mt LEFT_ALT G  &kp H  &lt 3 K  &kp O  &mt RIGHT_SHIFT ENTER  &kp Z  &kp V  &lt 4 N  &mt RIGHT_SHIFT M
+&kp E  &kp R  &kp T  &lt 4 Y  &kp U  &lt 2 I  &mt LCTRL A  &mt LCTRL S  &mt LEFT_WIN D  &mt LEFT_ALT G  &kp H  &lt 1 K  &kp O  &mt RIGHT_SHIFT ENTER  &kp Z  &kp V  &lt 3 N  &mt RIGHT_SHIFT M
             >;
         };
 
         layer_1 {
             bindings = <
-&kp SINGLE_QUOTE  &kp BACKSLASH  &kp EQUAL  &trans  &kp GRAVE  &kp BACKSPACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA  &kp PERIOD  &kp SLASH  &kp RIGHT_ALT  &kp RIGHT_WIN  &kp RIGHT_SHIFT  &kp SEMICOLON  &kp MINUS  &kp SPACE  &kp ENTER
+&kp N7  &kp N8  &kp N9  &kp N0  &kp RIGHT_ALT  &kp DELETE  &mt LCTRL N1  &mt LCTRL N4  &mt LEFT_WIN N5  &mt LEFT_ALT N6  &kp RCTRL  &trans  &kp RIGHT_WIN  &kp RIGHT_SHIFT  &kp N2  &kp N3  &kp BACKSPACE  &kp ENTER
             >;
         };
 
         layer_2 {
             bindings = <
-&kp HOME  &kp UP_ARROW  &mt LEFT_ALT END  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &kp TAB  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &kp RIGHT_WIN  &kp RIGHT_SHIFT  &mkp MB4  &mkp MB5  &mkp MB1  &mkp MB2
+&mt LCTRL HOME  &kp UP_ARROW  &mt LEFT_ALT END  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &kp TAB  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &kp RIGHT_WIN  &kp RIGHT_SHIFT  &mkp MB4  &mkp MB5  &mkp MB1  &mkp MB2
             >;
         };
 
         layer_3 {
             bindings = <
-&kp N7  &kp N8  &kp N9  &kp N0  &kp PLUS  &kp ASTRK  &kp N1  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH  &trans  &kp RIGHT_WIN  &kp RIGHT_SHIFT  &kp N2  &kp N3  &kp COMMA  &kp PERIOD
+&kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp F1  &kp F4  &kp F5  &kp F6  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_WIN  &kp RIGHT_SHIFT  &kp F2  &kp F3  &trans  &kp DELETE
             >;
         };
 
         layer_4 {
             bindings = <
-&kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp DELETE  &kp F1  &kp F4  &kp F5  &kp F6  &kp F12  &kp RIGHT_ALT  &kp RIGHT_WIN  &kp RIGHT_SHIFT  &kp F2  &kp F3  &trans  &kp RCTRL
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
