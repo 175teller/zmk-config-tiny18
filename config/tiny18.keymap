@@ -24,7 +24,7 @@
 
         grave {
             bindings = <&kp GRAVE>;
-            key-positions = <3 4>;
+            key-positions = <12 11>;
             layers = <0>;
         };
 
@@ -36,13 +36,13 @@
 
         b {
             bindings = <&kp B>;
-            key-positions = <9 15>;
+            key-positions = <16 17>;
             layers = <0>;
         };
 
         j {
             bindings = <&kp J>;
-            key-positions = <10 11>;
+            key-positions = <3 4>;
             layers = <0>;
         };
 
@@ -72,8 +72,8 @@
         };
 
         backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <16 17>;
+            bindings = <&mt RCTRL BACKSPACE>;
+            key-positions = <5 13>;
             layers = <0 1 2 3 4>;
         };
 
@@ -85,7 +85,7 @@
 
         c {
             bindings = <&kp C>;
-            key-positions = <8 1>;
+            key-positions = <15 16>;
             layers = <0>;
         };
 
@@ -103,7 +103,7 @@
 
         slash {
             bindings = <&kp SLASH>;
-            key-positions = <14 8>;
+            key-positions = <14 6>;
             layers = <0>;
         };
 
@@ -127,49 +127,49 @@
 
         left {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <10 17>;
+            key-positions = <15 6>;
             layers = <0>;
         };
 
         right {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <11 17>;
+            key-positions = <13 16>;
             layers = <0>;
         };
 
         space {
-            bindings = <&kp SPACE>;
+            bindings = <&mt RIGHT_WIN SPACE>;
             key-positions = <12 13>;
             layers = <0>;
         };
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <14 6>;
+            key-positions = <1 8>;
             layers = <0>;
         };
 
         equal {
             bindings = <&kp EQUAL>;
-            key-positions = <14 9>;
+            key-positions = <2 3>;
             layers = <0>;
         };
 
         plus {
             bindings = <&kp PLUS>;
-            key-positions = <15 6>;
+            key-positions = <9 10>;
             layers = <0>;
         };
 
-        asterisk {
-            bindings = <&kp ASTERISK>;
-            key-positions = <14 7>;
+        function1 {
+            bindings = <&kp F1>;
+            key-positions = <7 9>;
             layers = <0>;
         };
 
         quote {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <11 12>;
+            key-positions = <11 10>;
             layers = <0>;
         };
 
@@ -196,6 +196,84 @@
             key-positions = <3 5>;
             layers = <0>;
         };
+
+        function5 {
+            bindings = <&kp F5>;
+            key-positions = <9 15>;
+            layers = <0>;
+        };
+
+        function2 {
+            bindings = <&kp F2>;
+            key-positions = <10 12>;
+            layers = <0>;
+        };
+
+        function11 {
+            bindings = <&kp F11>;
+            key-positions = <10 11 12>;
+            layers = <0>;
+        };
+
+        mb4 {
+            bindings = <&mkp MB4>;
+            key-positions = <0 1 2>;
+            layers = <0>;
+        };
+
+        mb5 {
+            bindings = <&mkp MB5>;
+            key-positions = <3 4 5>;
+            layers = <0>;
+        };
+
+        function3 {
+            bindings = <&kp F3>;
+            key-positions = <0 1>;
+            layers = <1>;
+        };
+
+        function4 {
+            bindings = <&kp F4>;
+            key-positions = <1 2>;
+            layers = <1>;
+        };
+
+        function6 {
+            bindings = <&kp F6>;
+            key-positions = <7 8>;
+            layers = <1>;
+        };
+
+        function7 {
+            bindings = <&kp F7>;
+            key-positions = <8 9>;
+            layers = <1>;
+        };
+
+        function8 {
+            bindings = <&kp F8>;
+            key-positions = <14 15>;
+            layers = <1>;
+        };
+
+        function9 {
+            bindings = <&kp F9>;
+            key-positions = <0 6>;
+            layers = <1>;
+        };
+
+        function10 {
+            bindings = <&kp F10>;
+            key-positions = <7 6>;
+            layers = <1>;
+        };
+
+        function12 {
+            bindings = <&kp F12>;
+            key-positions = <6 14>;
+            layers = <1>;
+        };
     };
 
     keymap {
@@ -203,25 +281,25 @@
 
         default_layer {
             bindings = <
-&kp W  &kp E  &kp R  &lt 1 U  &lt 2 I  &lt 3 O  &mt LCTRL A  &mt LCTRL S  &mt LEFT_WIN D  &mt LEFT_ALT G  &lt 4 H  &lt 5 K  &mt RCTRL L  &mt RIGHT_SHIFT ENTER  &kp Z  &kp V  &kp N  &mt RIGHT_SHIFT M
+&kp W  &kp E  &kp R  &lt 1 U  &lt 2 I  &lt 3 O  &mt LCTRL A  &mt LEFT_SHIFT S  &mt LEFT_WIN D  &mt LEFT_ALT G  &lt 4 H  &lt 5 K  &mt RIGHT_ALT L  &mt RIGHT_SHIFT ENTER  &kp Z  &kp V  &kp N  &kp M
             >;
         };
 
         layer_1 {
             bindings = <
-&kp N7  &kp N8  &kp N9  &trans  &kp RCTRL  &kp DELETE  &kp N1  &kp N4  &kp N5  &kp N6  &kp RIGHT_ALT  &kp RIGHT_WIN  &kp BACKSPACE  &mt RIGHT_SHIFT ENTER  &kp N2  &kp N3  &kp N0  &kp SPACE
+&kp N7  &kp N8  &kp N9  &trans  &kp UP_ARROW  &kp HOME  &kp N1  &kp N4  &kp N5  &kp N6  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &mt RIGHT_SHIFT ENTER  &kp N2  &kp N3  &kp N0  &kp END
             >;
         };
 
         layer_2 {
             bindings = <
-&mkp MB1  &kp UP_ARROW  &mkp MB2  &mmv MOVE_UP  &trans  &mmv MOVE_RIGHT  &mkp MB3  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &mmv MOVE_LEFT  &msc SCRL_LEFT  &mmv MOVE_DOWN  &msc SCRL_RIGHT  &mkp MB4  &mkp MB5  &msc SCRL_UP  &msc SCRL_DOWN
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         layer_3 {
             bindings = <
-&kp F7  &kp F8  &kp F9  &trans  &trans  &trans  &kp F1  &kp F4  &kp F5  &kp F6  &trans  &trans  &trans  &kp F12  &kp F2  &kp F3  &kp F10  &kp F11
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
