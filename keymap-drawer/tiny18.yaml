@@ -8,74 +8,74 @@ layers:
   - {t: I, h: '2'}
   - {t: O, h: '3'}
   - {t: A, h: LCTRL}
-  - {t: S, h: LCTRL}
+  - {t: S, h: LEFT SHIFT}
   - {t: D, h: LEFT WIN}
   - {t: G, h: LEFT ALT}
   - {t: H, h: '4'}
   - {t: K, h: '5'}
-  - {t: L, h: RCTRL}
+  - {t: L, h: RIGHT ALT}
   - {t: ENTER, h: RIGHT SHIFT}
   - Z
   - V
   - N
-  - {t: M, h: RIGHT SHIFT}
+  - M
   '1':
   - '7'
   - '8'
   - '9'
   - {type: held}
-  - RCTRL
-  - DELETE
+  - UP ARROW
+  - HOME
   - '1'
   - '4'
   - '5'
   - '6'
-  - RIGHT ALT
-  - RIGHT WIN
-  - BACKSPACE
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   - {t: ENTER, h: RIGHT SHIFT}
   - '2'
   - '3'
   - '0'
-  - SPACE
+  - END
   '2':
-  - '&mkp MB1'
-  - UP ARROW
-  - '&mkp MB2'
-  - '&mmv MOVE_UP'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - '&mmv MOVE_RIGHT'
-  - '&mkp MB3'
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
-  - '&mmv MOVE_LEFT'
-  - '&msc SCRL_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&msc SCRL_RIGHT'
-  - '&mkp MB4'
-  - '&mkp MB5'
-  - '&msc SCRL_UP'
-  - '&msc SCRL_DOWN'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   '3':
-  - F7
-  - F8
-  - F9
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - F1
-  - F4
-  - F5
-  - F6
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F12
-  - F2
-  - F3
-  - F10
-  - F11
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   '4':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -121,16 +121,16 @@ combos:
 - p: [1, 2]
   k: ;
   l: [default]
-- p: [3, 4]
+- p: [12, 11]
   k: '`'
   l: [default]
 - p: [4, 5]
   k: P
   l: [default]
-- p: [9, 15]
+- p: [16, 17]
   k: B
   l: [default]
-- p: [10, 11]
+- p: [3, 4]
   k: J
   l: [default]
 - p: [11, 4]
@@ -145,13 +145,13 @@ combos:
 - p: [10, 16]
   k: DELETE
   l: [default, '1', '2', '3', '4']
-- p: [16, 17]
-  k: BACKSPACE
+- p: [5, 13]
+  k: {t: BACKSPACE, h: RCTRL}
   l: [default, '1', '2', '3', '4']
 - p: [14, 15]
   k: X
   l: [default]
-- p: [8, 1]
+- p: [15, 16]
   k: C
   l: [default]
 - p: [7, 0]
@@ -160,7 +160,7 @@ combos:
 - p: [17, 13]
   k: \
   l: [default]
-- p: [14, 8]
+- p: [14, 6]
   k: /
   l: [default]
 - p: [2, 9]
@@ -172,28 +172,28 @@ combos:
 - p: [8, 9]
   k: .
   l: [default]
-- p: [10, 17]
+- p: [15, 6]
   k: '['
   l: [default]
-- p: [11, 17]
+- p: [13, 16]
   k: ']'
   l: [default]
 - p: [12, 13]
-  k: SPACE
+  k: {t: SPACE, h: RIGHT WIN}
   l: [default]
-- p: [14, 6]
+- p: [1, 8]
   k: '-'
   l: [default]
-- p: [14, 9]
+- p: [2, 3]
   k: '='
   l: [default]
-- p: [15, 6]
+- p: [9, 10]
   k: +
   l: [default]
-- p: [14, 7]
-  k: '*'
+- p: [7, 9]
+  k: F1
   l: [default]
-- p: [11, 12]
+- p: [11, 10]
   k: ''''
   l: [default]
 - p: [0, 6]
@@ -208,3 +208,42 @@ combos:
 - p: [3, 5]
   k: VOLUME DOWN
   l: [default]
+- p: [9, 15]
+  k: F5
+  l: [default]
+- p: [10, 12]
+  k: F2
+  l: [default]
+- p: [10, 11, 12]
+  k: F11
+  l: [default]
+- p: [0, 1, 2]
+  k: '&mkp MB4'
+  l: [default]
+- p: [3, 4, 5]
+  k: '&mkp MB5'
+  l: [default]
+- p: [0, 1]
+  k: F3
+  l: ['1']
+- p: [1, 2]
+  k: F4
+  l: ['1']
+- p: [7, 8]
+  k: F6
+  l: ['1']
+- p: [8, 9]
+  k: F7
+  l: ['1']
+- p: [14, 15]
+  k: F8
+  l: ['1']
+- p: [0, 6]
+  k: F9
+  l: ['1']
+- p: [7, 6]
+  k: F10
+  l: ['1']
+- p: [6, 14]
+  k: F12
+  l: ['1']
