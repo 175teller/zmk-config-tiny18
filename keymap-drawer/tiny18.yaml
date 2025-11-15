@@ -25,7 +25,7 @@ layers:
   - '9'
   - {type: held}
   - UP ARROW
-  - HOME
+  - RCTRL
   - '1'
   - '4'
   - '5'
@@ -37,7 +37,7 @@ layers:
   - '2'
   - '3'
   - '0'
-  - END
+  - RIGHT GUI
   '2':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -191,7 +191,7 @@ combos:
   k: +
   l: [default]
 - p: [7, 9]
-  k: F1
+  k: F5
   l: [default]
 - p: [11, 10]
   k: ''''
@@ -203,25 +203,13 @@ combos:
   k: Y
   l: [default]
 - p: [0, 2]
-  k: VOLUME UP
+  k: F1
   l: [default]
 - p: [3, 5]
-  k: VOLUME DOWN
-  l: [default]
-- p: [9, 15]
-  k: F5
-  l: [default]
-- p: [10, 12]
   k: F2
   l: [default]
-- p: [10, 11, 12]
+- p: [10, 12]
   k: F11
-  l: [default]
-- p: [0, 1, 2]
-  k: '&mkp MB4'
-  l: [default]
-- p: [3, 4, 5]
-  k: '&mkp MB5'
   l: [default]
 - p: [0, 1]
   k: F3
