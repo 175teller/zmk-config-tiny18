@@ -47,13 +47,13 @@
 
         lang2 {
             bindings = <&kp LANGUAGE_2>;
-            key-positions = <11 4>;
+            key-positions = <12 13>;
             layers = <0>;
         };
 
         lang1 {
             bindings = <&kp LANGUAGE_1>;
-            key-positions = <12 5>;
+            key-positions = <5 13>;
             layers = <0>;
         };
 
@@ -72,7 +72,7 @@
 
         backspace {
             bindings = <&mt RCTRL BACKSPACE>;
-            key-positions = <5 13>;
+            key-positions = <13 16>;
             layers = <0 1 2 3 4>;
         };
 
@@ -96,13 +96,13 @@
 
         backslash {
             bindings = <&kp BACKSLASH>;
-            key-positions = <17 13>;
+            key-positions = <5 12>;
             layers = <0>;
         };
 
         slash {
             bindings = <&kp SLASH>;
-            key-positions = <14 6>;
+            key-positions = <4 11>;
             layers = <0>;
         };
 
@@ -126,19 +126,19 @@
 
         left {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <15 6>;
+            key-positions = <6 14>;
             layers = <0>;
         };
 
         right {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <13 16>;
+            key-positions = <6 15>;
             layers = <0>;
         };
 
         space {
             bindings = <&mt RIGHT_WIN SPACE>;
-            key-positions = <12 13>;
+            key-positions = <13 17>;
             layers = <0>;
         };
 
