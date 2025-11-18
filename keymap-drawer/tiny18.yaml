@@ -133,10 +133,10 @@ combos:
 - p: [3, 4]
   k: J
   l: [default]
-- p: [11, 4]
+- p: [12, 13]
   k: LANGUAGE 2
   l: [default]
-- p: [12, 5]
+- p: [5, 13]
   k: LANGUAGE 1
   l: [default]
 - p: [6, 7]
@@ -145,7 +145,7 @@ combos:
 - p: [10, 16]
   k: DELETE
   l: [default, '1', '2', '3', '4']
-- p: [5, 13]
+- p: [13, 16]
   k: {t: BACKSPACE, h: RCTRL}
   l: [default, '1', '2', '3', '4']
 - p: [14, 15]
@@ -157,10 +157,10 @@ combos:
 - p: [7, 0]
   k: F
   l: [default]
-- p: [17, 13]
+- p: [5, 12]
   k: \
   l: [default]
-- p: [14, 6]
+- p: [4, 11]
   k: /
   l: [default]
 - p: [2, 9]
@@ -172,13 +172,13 @@ combos:
 - p: [8, 9]
   k: .
   l: [default]
-- p: [15, 6]
+- p: [6, 14]
   k: '['
   l: [default]
-- p: [13, 16]
+- p: [6, 15]
   k: ']'
   l: [default]
-- p: [12, 13]
+- p: [13, 17]
   k: {t: SPACE, h: RIGHT WIN}
   l: [default]
 - p: [1, 8]
