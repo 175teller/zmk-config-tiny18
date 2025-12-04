@@ -42,7 +42,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&screenshot'
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
