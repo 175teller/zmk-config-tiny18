@@ -59,23 +59,23 @@ layers:
   - Gui+Sft+RIGHT ARROW
   '3':
   - Gui+Sft+4
-  - {t: ▽, type: trans}
+  - Gui+UP ARROW
   - F
   - DOWN ARROW
   - \
   - {type: held}
   - Gui+Alt+D
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+LEFT ARROW
+  - Gui+DOWN ARROW
+  - Gui+RIGHT ARROW
   - Ctl+Sft+LEFT ARROW
   - Ctl+Sft+RIGHT
   - Ctl+\
   - GLOBE
   - Alt+LEFT ARROW
   - Alt+RIGHT ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+Sft+LEFT ARROW
+  - Gui+Sft+RIGHT ARROW
   '4':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -96,24 +96,24 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '5':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mmv MOVE_UP'
+  - '&mkp MB2'
   - {t: BT, h: '0'}
   - BT CLR
   - {t: BT, h: '1'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
   - {t: BT, h: '2'}
   - {type: held}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB4'
+  - '&mkp MB5'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_DOWN'
 combos:
 - p: [1, 0]
   k: Q
