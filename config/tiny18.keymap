@@ -4,6 +4,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 / {
     combos {
@@ -268,7 +269,7 @@
 
         layer_3 {
             bindings = <
-&kp LG(LS(NUMBER_4))  &trans  &kp F  &kp DOWN_ARROW  &kp BACKSLASH  &trans  &kp LG(LA(D))  &trans  &trans  &trans  &kp RC(RS(LEFT_ARROW))  &kp RC(RS(RIGHT))  &kp RC(BACKSLASH)  &kp GLOBE  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &trans  &trans
+&kp LG(LS(NUMBER_4))  &kp LG(UP_ARROW)  &kp F  &kp DOWN_ARROW  &kp BACKSLASH  &trans  &kp LG(LA(D))  &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &kp RC(RS(LEFT_ARROW))  &kp RC(RS(RIGHT))  &kp RC(BACKSLASH)  &kp GLOBE  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp RG(RS(LEFT_ARROW))  &kp RG(RS(RIGHT_ARROW))
             >;
         };
 
@@ -280,7 +281,7 @@
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &bt BT_SEL 0  &bt BT_CLR  &bt BT_SEL 1  &trans  &trans  &trans  &trans  &bt BT_SEL 2  &trans  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans  &trans
+&mkp MB1  &mmv MOVE_UP  &mkp MB2  &bt BT_SEL 0  &bt BT_CLR  &bt BT_SEL 1  &kp LEFT_SHIFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &bt BT_SEL 2  &trans  &bt BT_SEL 3  &bt BT_SEL 4  &mkp MB4  &mkp MB5  &msc SCRL_UP  &msc SCRL_DOWN
             >;
         };
     };
