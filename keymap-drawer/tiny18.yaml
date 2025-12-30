@@ -96,24 +96,24 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '5':
-  - '&mkp MB1'
-  - '&mmv MOVE_UP'
-  - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: BT, h: '0'}
   - BT CLR
   - {t: BT, h: '1'}
-  - LEFT SHIFT
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: BT, h: '2'}
   - {type: held}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - '&mkp MB4'
-  - '&mkp MB5'
-  - '&msc SCRL_UP'
-  - '&msc SCRL_DOWN'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [1, 0]
   k: Q
