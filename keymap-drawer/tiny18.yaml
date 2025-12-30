@@ -60,20 +60,20 @@ layers:
   '3':
   - Gui+Sft+4
   - {t: ▽, type: trans}
-  - '&ipad_fullscreen'
-  - '&all_window'
-  - '&slide_over_hide'
+  - F
+  - DOWN ARROW
+  - \
   - {type: held}
   - Gui+Alt+D
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&left_window'
-  - '&right_window'
-  - Gui+M
-  - '&move_display'
-  - '&slide_over_left'
-  - '&slide_over_right'
+  - Ctl+Sft+LEFT ARROW
+  - Ctl+Sft+RIGHT
+  - Ctl+\
+  - GLOBE
+  - Alt+LEFT ARROW
+  - Alt+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '4':
