@@ -246,64 +246,6 @@
         };
     };
 
-    macros {
-        slide_over_left: slide_over_left {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LA(GLOBE) &kp LEFT_ARROW>;
-            label = "SLIDE_OVER_LEFT";
-        };
-
-        slide_over_right: slide_over_right {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LA(GLOBE) &kp RIGHT_ARROW>;
-            label = "SLIDE_OVER_RIGHT";
-        };
-
-        ipad_fullscreen: ipad_fullscreen {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp GLOBE &kp F>;
-            label = "IPAD_FULLSCREEN";
-        };
-
-        all_window: all_window {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp GLOBE &kp DOWN_ARROW>;
-            label = "ALL_WINDOW";
-        };
-
-        slide_over_hide: slide_over_hide {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp GLOBE &kp BACKSLASH>;
-            label = "SLIDE_OVER_HIDE";
-        };
-
-        move_display: move_display {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp RC(GLOBE) &kp BACKSLASH>;
-            label = "MOVE_DISPLAY";
-        };
-
-        left_window: left_window {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp RC(RS(GLOBE)) &kp LEFT_ARROW>;
-            label = "LEFT_WINDOW";
-        };
-
-        right_window: right_window {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp RC(RS(GLOBE)) &kp RIGHT>;
-            label = "RIGHT_WINDOW";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
