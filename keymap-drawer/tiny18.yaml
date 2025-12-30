@@ -33,47 +33,47 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - {t: ENTER, h: RIGHT SHIFT}
+  - {t: ▽, type: trans}
   - '2'
   - '3'
   - '0'
   - END
   '2':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&screenshot'
+  - Ctl+Sft+ESCAPE
+  - Gui+UP ARROW
+  - Gui+HOME
+  - Gui+Sft+S
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+Ctl+D
+  - Ctl+AltGr+ESCAPE
+  - Gui+LEFT ARROW
+  - Gui+DOWN ARROW
+  - Gui+RIGHT ARROW
+  - Gui+Ctl+LEFT ARROW
+  - Gui+Ctl+F4
+  - Gui+Ctl+RIGHT ARROW
+  - Ctl+AltGr+DELETE
+  - Alt+UP ARROW
+  - Alt+DOWN ARROW
+  - Gui+Sft+LEFT ARROW
+  - Gui+Sft+RIGHT ARROW
   '3':
+  - Gui+Sft+4
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&ipad_fullscreen'
+  - '&all_window'
+  - '&slide_over_hide'
   - {type: held}
+  - Gui+Alt+D
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&left_window'
+  - '&right_window'
+  - Gui+M
+  - '&move_display'
+  - '&slide_over_left'
+  - '&slide_over_right'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '4':
@@ -96,24 +96,24 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '5':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mmv MOVE_UP'
+  - '&mkp MB2'
   - {t: BT, h: '0'}
   - BT CLR
-  - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: BT, h: '1'}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
   - {t: BT, h: '2'}
+  - {type: held}
   - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - '&mkp MB4'
+  - '&mkp MB5'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_DOWN'
 combos:
 - p: [1, 0]
   k: Q
