@@ -327,7 +327,7 @@
 
         layer_3 {
             bindings = <
-&kp LG(LS(NUMBER_4))  &trans  &ipad_fullscreen  &all_window  &slide_over_hide  &trans  &kp LG(LA(D))  &trans  &trans  &trans  &left_window  &right_window  &kp RG(M)  &move_display  &slide_over_left  &slide_over_right  &trans  &trans
+&kp LG(LS(NUMBER_4))  &trans  &kp F  &kp DOWN_ARROW  &kp BACKSLASH  &trans  &kp LG(LA(D))  &trans  &trans  &trans  &kp RC(RS(LEFT_ARROW))  &kp RC(RS(RIGHT))  &kp RC(BACKSLASH)  &kp GLOBE  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &trans  &trans
             >;
         };
 
