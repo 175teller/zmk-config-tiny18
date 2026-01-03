@@ -68,13 +68,13 @@
         del {
             bindings = <&kp DELETE>;
             key-positions = <17 13>;
-            layers = <0 1 2 3 4>;
+            layers = <0>;
         };
 
         backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <16 17>;
-            layers = <0 1 2 3 4>;
+            layers = <0>;
         };
 
         space {
