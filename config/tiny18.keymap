@@ -269,7 +269,7 @@
 
         layer_3 {
             bindings = <
-&kp C  &kp UP_ARROW  &kp D  &kp RC(BACKSLASH)  &kp F  &trans  &kp LG(LS(NUMBER_4))  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RA(LEFT_ARROW)  &kp BACKSLASH  &kp RA(RIGHT_ARROW)  &kp GLOBE  &kp H  &kp LC(C)  &kp RS(RC(LEFT_ARROW))  &kp RS(RC(RIGHT_ARROW))
+&kp C  &kp UP_ARROW  &kp LG(LA(D))  &kp RC(BACKSLASH)  &kp F  &trans  &kp LG(LS(NUMBER_4))  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RA(LEFT_ARROW)  &kp BACKSLASH  &kp RA(RIGHT_ARROW)  &kp GLOBE  &kp H  &kp LC(C)  &kp RS(RC(LEFT_ARROW))  &kp RS(RC(RIGHT_ARROW))
             >;
         };
 
