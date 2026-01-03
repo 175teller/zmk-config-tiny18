@@ -60,7 +60,7 @@ layers:
   '3':
   - C
   - UP ARROW
-  - D
+  - Gui+Alt+D
   - Ctl+\
   - F
   - {type: held}
