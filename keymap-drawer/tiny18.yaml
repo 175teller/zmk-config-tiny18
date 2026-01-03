@@ -58,24 +58,24 @@ layers:
   - Gui+Sft+LEFT ARROW
   - Gui+Sft+RIGHT ARROW
   '3':
-  - Gui+Sft+4
-  - Gui+UP ARROW
-  - F
-  - DOWN ARROW
-  - \
-  - {type: held}
-  - Gui+Alt+D
-  - Gui+LEFT ARROW
-  - Gui+DOWN ARROW
-  - Gui+RIGHT ARROW
-  - Ctl+Sft+LEFT ARROW
-  - Ctl+Sft+RIGHT
+  - C
+  - UP ARROW
+  - D
   - Ctl+\
+  - F
+  - {type: held}
+  - Gui+Sft+4
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - AltGr+LEFT ARROW
+  - \
+  - AltGr+RIGHT ARROW
   - GLOBE
-  - Alt+LEFT ARROW
-  - Alt+RIGHT ARROW
-  - Gui+Sft+LEFT ARROW
-  - Gui+Sft+RIGHT ARROW
+  - H
+  - Ctl+C
+  - Sft+Ctl+LEFT ARROW
+  - Sft+Ctl+RIGHT ARROW
   '4':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
