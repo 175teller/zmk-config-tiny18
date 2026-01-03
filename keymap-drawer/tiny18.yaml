@@ -144,10 +144,10 @@ combos:
   l: [default]
 - p: [17, 13]
   k: DELETE
-  l: [default, '1', '2', '3', '4']
+  l: [default]
 - p: [16, 17]
   k: BACKSPACE
-  l: [default, '1', '2', '3', '4']
+  l: [default]
 - p: [16, 13]
   k: SPACE
   l: [default]
