@@ -203,7 +203,7 @@
             layers = <1 2>;
         };
 
-        GUI {
+        GUI2 {
             bindings = <&kp RIGHT_GUI>;
             key-positions = <12 13>;
             layers = <1>;
