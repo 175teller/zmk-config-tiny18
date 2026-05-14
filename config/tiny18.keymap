@@ -13,236 +13,206 @@
         q {
             bindings = <&kp Q>;
             key-positions = <1 0>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         f {
             bindings = <&kp F>;
             key-positions = <0 7>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         c {
             bindings = <&kp C>;
             key-positions = <1 8>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         t {
             bindings = <&kp T>;
             key-positions = <2 9>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         x {
             bindings = <&kp X>;
-            key-positions = <9 15>;
-            layers = <0>;
+            key-positions = <9 14>;
+            layers = <0 1>;
         };
 
         y {
             bindings = <&kp Y>;
             key-positions = <3 10>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         j {
             bindings = <&kp J>;
             key-positions = <4 11>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         p {
             bindings = <&kp P>;
             key-positions = <5 12>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         b {
             timeout-ms = <35>;
             bindings = <&kp B>;
-            key-positions = <10 16>;
-            layers = <0>;
+            key-positions = <9 15>;
+            layers = <0 1>;
         };
 
         del {
             bindings = <&kp DELETE>;
             key-positions = <17 13>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <16 17>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         space {
             bindings = <&kp SPACE>;
-            key-positions = <16 13>;
-            layers = <0>;
+            key-positions = <14 15>;
+            layers = <0 1>;
         };
 
         tab {
             bindings = <&kp TAB>;
             key-positions = <6 7>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <0 6>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         backslash {
             bindings = <&kp BACKSLASH>;
             key-positions = <5 4>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         slash {
             bindings = <&kp SLASH>;
             key-positions = <4 3>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         colon {
             bindings = <&kp SEMICOLON>;
             key-positions = <11 12>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         quote {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <10 11>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         period {
             bindings = <&kp PERIOD>;
             key-positions = <8 9>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         comma {
             bindings = <&kp COMMA>;
             key-positions = <7 8>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         right {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <6 15>;
-            layers = <0>;
+            key-positions = <8 14>;
+            layers = <0 1>;
         };
 
         left {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <6 14>;
-            layers = <0>;
+            key-positions = <14 7>;
+            layers = <0 1>;
         };
 
         minus {
             bindings = <&kp MINUS>;
             key-positions = <1 2>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         equal {
             bindings = <&kp EQUAL>;
-            key-positions = <14 15>;
-            layers = <0>;
+            key-positions = <11 17>;
+            layers = <0 1>;
         };
 
         grave {
             bindings = <&kp GRAVE>;
-            key-positions = <9 7>;
-            layers = <0>;
+            key-positions = <12 17>;
+            layers = <0 1>;
         };
 
         function1 {
             bindings = <&kp F1>;
-            key-positions = <3 5 4>;
+            key-positions = <10 16>;
             layers = <0>;
         };
 
         function2 {
             bindings = <&kp F2>;
-            key-positions = <3 5>;
-            layers = <0>;
-        };
-
-        function3 {
-            bindings = <&kp F3>;
-            key-positions = <2 3>;
-            layers = <0>;
-        };
-
-        function4 {
-            bindings = <&kp F4>;
-            key-positions = <10 11 12>;
-            layers = <0>;
-        };
-
-        function5 {
-            bindings = <&kp F5>;
-            key-positions = <10 12>;
-            layers = <0>;
-        };
-
-        function6 {
-            bindings = <&kp F6>;
-            key-positions = <9 10>;
-            layers = <0>;
-        };
-
-        function7 {
-            bindings = <&kp F7>;
-            key-positions = <15 16>;
-            layers = <0>;
-        };
-
-        function8 {
-            bindings = <&kp F8>;
-            key-positions = <7 8 9>;
-            layers = <0>;
-        };
-
-        function9 {
-            bindings = <&kp F9>;
-            key-positions = <1 0 6>;
-            layers = <0>;
-        };
-
-        function10 {
-            bindings = <&kp F10>;
-            key-positions = <7 6 14>;
-            layers = <0>;
-        };
-
-        function11 {
-            bindings = <&kp F11>;
-            key-positions = <0 2>;
-            layers = <0>;
-        };
-
-        function12 {
-            bindings = <&kp F12>;
-            key-positions = <0 1 2>;
+            key-positions = <10 17>;
             layers = <0>;
         };
 
         lang1 {
-            bindings = <&mt RCTRL LANGUAGE_1>;
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <6 14>;
+            layers = <0 1>;
+        };
+
+        lang2 {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <6 15>;
+            layers = <0 1>;
+        };
+
+        Ctrl {
+            bindings = <&kp RCTRL>;
+            key-positions = <12 13>;
+            layers = <0>;
+        };
+
+        GUI {
+            bindings = <&kp RIGHT_GUI>;
             key-positions = <5 13>;
             layers = <0>;
         };
 
-        lang2 {
-            bindings = <&mt RIGHT_GUI LANGUAGE_2>;
-            key-positions = <13 12>;
-            layers = <0>;
+        Globe {
+            bindings = <&kp GLOBE>;
+            key-positions = <5 13>;
+            layers = <1 2>;
+        };
+
+        GUI {
+            bindings = <&kp RIGHT_GUI>;
+            key-positions = <12 13>;
+            layers = <1>;
+        };
+
+        Zero {
+            bindings = <&kp NUMBER_0>;
+            key-positions = <1 2>;
+            layers = <2>;
         };
     };
 
@@ -293,7 +263,7 @@
 
         layer_4 {
             bindings = <
-&trans  &kp F  &trans  &trans  &trans  &trans  &kp LG(LS(NUMBER_4))  &kp LS(LC(LEFT_ARROW))  &kp LC(C)  &kp LS(LC(RIGHT_ARROW))  &kp RA(LEFT_ARROW)  &kp BACKSLASH  &kp RA(RIGHT_ARROW)  &kp GLOBE  &trans  &trans  &kp LC(BACKSLASH)  &trans
+&trans  &kp F  &trans  &trans  &trans  &trans  &kp LG(LS(NUMBER_4))  &kp LS(LC(LEFT_ARROW))  &kp LC(C)  &kp LS(LC(RIGHT_ARROW))  &kp RA(LEFT_ARROW)  &kp BACKSLASH  &kp RA(RIGHT_ARROW)  &kp GLOBE  &trans  &trans  &kp LC(BACKSLASH)  &kp RG(RA(D))
             >;
         };
 
