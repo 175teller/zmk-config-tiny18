@@ -246,42 +246,66 @@
         };
     };
 
+    macros {
+        ipad: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 0>, <&macro_wait_time 200>, <&to 1>;
+
+            label = "NEW_MACRO";
+        };
+
+        iphone: iphone {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 1>, <&macro_wait_time 200>, <&to 1>;
+
+            label = "IPHONE";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&kp W  &kp E  &kp R  &lt 1 U  &lt 2 I  &lt 3 O  &mt LCTRL A  &mt LEFT_SHIFT S  &mt LEFT_WIN D  &mt LEFT_ALT G  &lt 4 H  &lt 5 K  &mt RIGHT_ALT L  &mt RIGHT_SHIFT ENTER  &kp Z  &kp V  &kp N  &kp M
+&kp W  &kp E  &kp R  &kp U  &kp I  &kp O  &mt LCTRL A  &mt LEFT_SHIFT S  &mt LEFT_ALT D  &mt LEFT_GUI G  &kp H  &kp K  &mt RIGHT_ALT L  &mt RIGHT_SHIFT ENTER  &lt 5 Z  &lt 3 V  &lt 2 N  &lt 6 M
             >;
         };
 
         layer_1 {
             bindings = <
-&kp N7  &kp N8  &kp N9  &trans  &kp UP_ARROW  &kp HOME  &kp N1  &kp N4  &kp N5  &kp N6  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &kp N2  &kp N3  &kp N0  &kp END
+&kp W  &kp E  &kp R  &kp U  &kp I  &kp O  &mt LEFT_GUI A  &mt LEFT_SHIFT S  &mt LEFT_ALT D  &mt LCTRL G  &kp H  &kp K  &mt RIGHT_ALT L  &mt RIGHT_SHIFT ENTER  &lt 5 Z  &lt 4 V  &lt 2 N  &lt 6 M
             >;
         };
 
         layer_2 {
             bindings = <
-&kp LC(LS(ESCAPE))  &kp LG(UP_ARROW)  &kp LG(HOME)  &kp RG(RS(S))  &trans  &kp RG(RC(D))  &kp RC(RA(ESCAPE))  &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &kp RG(RC(LEFT_ARROW))  &kp RG(RC(F4))  &kp RG(RC(RIGHT_ARROW))  &kp RC(RA(DELETE))  &kp LA(UP_ARROW)  &kp LA(DOWN_ARROW)  &kp RG(RS(LEFT_ARROW))  &kp RG(RS(RIGHT_ARROW))
+&kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &mt RCTRL HOME  &kp UP_ARROW  &mt RIGHT_GUI END  &kp NUMBER_1  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &mt RIGHT_SHIFT ENTER  &kp NUMBER_2  &kp NUMBER_3  &trans  &kp RIGHT_ALT
             >;
         };
 
         layer_3 {
             bindings = <
-&kp C  &kp UP_ARROW  &kp LG(LA(D))  &kp RC(BACKSLASH)  &kp F  &trans  &kp LG(LS(NUMBER_4))  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RA(LEFT_ARROW)  &kp BACKSLASH  &kp RA(RIGHT_ARROW)  &kp GLOBE  &kp H  &kp LC(C)  &kp RS(RC(LEFT_ARROW))  &kp RS(RC(RIGHT_ARROW))
+&trans  &kp LG(UP_ARROW)  &trans  &trans  &kp RG(RC(F4))  &trans  &kp LG(LS(S))  &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &kp RG(RC(LEFT_ARROW))  &kp RG(RC(D))  &kp RG(RC(RIGHT_ARROW))  &trans  &trans  &trans  &kp RS(RG(LEFT_ARROW))  &kp RS(RG(RIGHT_ARROW))
             >;
         };
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F  &trans  &trans  &trans  &trans  &kp LG(LS(NUMBER_4))  &kp LS(LC(LEFT_ARROW))  &kp LC(C)  &kp LS(LC(RIGHT_ARROW))  &kp RA(LEFT_ARROW)  &kp BACKSLASH  &kp RA(RIGHT_ARROW)  &kp GLOBE  &trans  &trans  &kp LC(BACKSLASH)  &trans
             >;
         };
 
         layer_5 {
             bindings = <
-&mkp MB1  &mmv MOVE_UP  &mkp MB2  &bt BT_SEL 0  &bt BT_CLR  &bt BT_SEL 1  &kp LEFT_SHIFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &bt BT_SEL 2  &trans  &bt BT_SEL 3  &bt BT_SEL 4  &mkp MB4  &mkp MB5  &msc SCRL_UP  &msc SCRL_DOWN
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp LEFT_ALT  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp GLOBE  &trans  &trans  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&mkp MB1  &mmv MOVE_UP  &mkp MB2  &msc SCRL_UP  &bt BT_CLR  &msc SCRL_DOWN  &kp LEFT_SHIFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 4  &mkp MB4  &mkp MB5  &bt BT_SEL 3  &trans
             >;
         };
     };
