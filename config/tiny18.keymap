@@ -217,26 +217,28 @@
     };
 
     macros {
-    // iPad接続用（プロファイル0を選択し、レイヤー1へ移動）
-    ipad: ipad_macro {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <200>;  // 各動作の間に30ミリ秒の空きを入れる
-        tap-ms = <200>;
-        bindings = <&bt BT_SEL 0>, <&to 1>;
-        label = "IPAD_MACRO";
-    };
+        // iPad接続用（プロファイル0を選択し、レイヤー1へ移動）
 
-    // iPhone接続用（プロファイル1を選択し、レイヤー1へ移動）
-    iphone: iphone_macro {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <200>;
-        tap-ms = <200>;
-        bindings = <&bt BT_SEL 1>, <&to 1>;
-        label = "IPHONE_MACRO";
+        ipad: ipad_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <200>;  // 各動作の間に30ミリ秒の空きを入れる
+            tap-ms = <200>;
+            bindings = <&bt BT_SEL 0 &to 1>;
+            label = "IPAD_MACRO";
+        };
+
+        // iPhone接続用（プロファイル1を選択し、レイヤー1へ移動）
+
+        iphone: iphone_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <200>;
+            tap-ms = <200>;
+            bindings = <&bt BT_SEL 1 &to 1>;
+            label = "IPHONE_MACRO";
+        };
     };
-};
 
     keymap {
         compatible = "zmk,keymap";
@@ -279,7 +281,7 @@
 
         layer_6 {
             bindings = <
-&mkp MB1  &mmv MOVE_UP  &mkp MB2  &msc SCRL_UP  &bt BT_CLR  &msc SCRL_DOWN  &kp LEFT_SHIFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 4  &mkp MB4  &mkp MB5  &bt BT_SEL 3  &trans
+&mkp MB1  &mmv MOVE_UP  &mkp MB2  &msc SCRL_UP  &bt BT_CLR  &msc SCRL_DOWN  &kp LEFT_SHIFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &ipad  &iphone  &bt BT_SEL 2  &bt BT_SEL 4  &mkp MB4  &mkp MB5  &bt BT_SEL 3  &trans
             >;
         };
     };
