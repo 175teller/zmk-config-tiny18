@@ -191,7 +191,7 @@
             layers = <0>;
         };
 
-        GUI {
+        Cmd {
             bindings = <&kp RIGHT_GUI>;
             key-positions = <5 13>;
             layers = <0>;
@@ -203,7 +203,7 @@
             layers = <1 2>;
         };
 
-        GUI2 {
+        Cmd2 {
             bindings = <&kp RIGHT_GUI>;
             key-positions = <12 13>;
             layers = <1>;
