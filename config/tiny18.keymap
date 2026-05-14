@@ -217,20 +217,26 @@
     };
 
     macros {
-        ipad: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&bt BT_SEL 0>, <&to 1>;
-            label = "NEW_MACRO";
-        };
-
-        iphone: iphone {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&bt BT_SEL 1>, <&to 1>;
-            label = "IPHONE";
-        };
+    // iPad接続用（プロファイル0を選択し、レイヤー1へ移動）
+    ipad: ipad_macro {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        wait-ms = <30>;  // 各動作の間に30ミリ秒の空きを入れる
+        tap-ms = <30>;
+        bindings = <&bt BT_SEL 0>, <&to 1>;
+        label = "IPAD_MACRO";
     };
+
+    // iPhone接続用（プロファイル1を選択し、レイヤー1へ移動）
+    iphone: iphone_macro {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        wait-ms = <30>;
+        tap-ms = <30>;
+        bindings = <&bt BT_SEL 1>, <&to 1>;
+        label = "IPHONE_MACRO";
+    };
+};
 
     keymap {
         compatible = "zmk,keymap";
