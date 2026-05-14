@@ -4,28 +4,47 @@ layers:
   - W
   - E
   - R
-  - {t: U, h: '1'}
-  - {t: I, h: '2'}
-  - {t: O, h: '3'}
+  - U
+  - I
+  - O
   - {t: A, h: LCTRL}
   - {t: S, h: LEFT SHIFT}
-  - {t: D, h: LEFT WIN}
-  - {t: G, h: LEFT ALT}
-  - {t: H, h: '4'}
-  - {t: K, h: '5'}
+  - {t: D, h: LEFT ALT}
+  - {t: G, h: LEFT GUI}
+  - H
+  - K
   - {t: L, h: RIGHT ALT}
   - {t: ENTER, h: RIGHT SHIFT}
-  - Z
-  - V
-  - N
-  - M
+  - {t: Z, h: '5'}
+  - {t: V, h: '3'}
+  - {t: N, h: '2'}
+  - {t: M, h: '6'}
   '1':
+  - W
+  - E
+  - R
+  - U
+  - I
+  - O
+  - {t: A, h: LEFT GUI}
+  - {t: S, h: LEFT SHIFT}
+  - {t: D, h: LEFT ALT}
+  - {t: G, h: LCTRL}
+  - H
+  - K
+  - {t: L, h: RIGHT ALT}
+  - {t: ENTER, h: RIGHT SHIFT}
+  - {t: Z, h: '5'}
+  - {t: V, h: '4'}
+  - {t: N, h: '2'}
+  - {t: M, h: '6'}
+  '2':
   - '7'
   - '8'
   - '9'
-  - {type: held}
+  - {t: HOME, h: RCTRL}
   - UP ARROW
-  - HOME
+  - {t: END, h: RIGHT GUI}
   - '1'
   - '4'
   - '5'
@@ -33,87 +52,87 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - {t: ▽, type: trans}
+  - {t: ENTER, h: RIGHT SHIFT}
   - '2'
   - '3'
-  - '0'
-  - END
-  '2':
-  - Ctl+Sft+ESCAPE
-  - Gui+UP ARROW
-  - Gui+HOME
-  - Gui+Sft+S
   - {type: held}
-  - Gui+Ctl+D
-  - Ctl+AltGr+ESCAPE
+  - RIGHT ALT
+  '3':
+  - {t: ▽, type: trans}
+  - Gui+UP ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+Ctl+F4
+  - {t: ▽, type: trans}
+  - Gui+Sft+S
   - Gui+LEFT ARROW
   - Gui+DOWN ARROW
   - Gui+RIGHT ARROW
   - Gui+Ctl+LEFT ARROW
-  - Gui+Ctl+F4
+  - Gui+Ctl+D
   - Gui+Ctl+RIGHT ARROW
-  - Ctl+AltGr+DELETE
-  - Alt+UP ARROW
-  - Alt+DOWN ARROW
-  - Gui+Sft+LEFT ARROW
-  - Gui+Sft+RIGHT ARROW
-  '3':
-  - C
-  - UP ARROW
-  - Gui+Alt+D
-  - Ctl+\
-  - F
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
+  - Sft+Gui+LEFT ARROW
+  - Sft+Gui+RIGHT ARROW
+  '4':
+  - {t: ▽, type: trans}
+  - F
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Gui+Sft+4
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
+  - Sft+Ctl+LEFT ARROW
+  - Ctl+C
+  - Sft+Ctl+RIGHT ARROW
   - AltGr+LEFT ARROW
   - \
   - AltGr+RIGHT ARROW
   - GLOBE
-  - H
-  - Ctl+C
-  - Sft+Ctl+LEFT ARROW
-  - Sft+Ctl+RIGHT ARROW
-  '4':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+\
   - {t: ▽, type: trans}
   '5':
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - LEFT ALT
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - GLOBE
+  - {type: held}
+  - {t: ▽, type: trans}
+  - VOLUME UP
+  - VOLUME DOWN
+  '6':
   - '&mkp MB1'
   - '&mmv MOVE_UP'
   - '&mkp MB2'
-  - {t: BT, h: '0'}
+  - '&msc SCRL_UP'
   - BT CLR
-  - {t: BT, h: '1'}
+  - '&msc SCRL_DOWN'
   - LEFT SHIFT
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
   - {t: BT, h: '2'}
-  - {type: held}
-  - {t: BT, h: '3'}
   - {t: BT, h: '4'}
   - '&mkp MB4'
   - '&mkp MB5'
-  - '&msc SCRL_UP'
-  - '&msc SCRL_DOWN'
+  - {t: BT, h: '3'}
+  - {type: held}
 combos:
 - p: [1, 0]
   k: Q
