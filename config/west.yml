@@ -15,5 +15,8 @@ manifest:
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: main
+    - name: zmk-config-tiny18
+      remote: k3peta
+      revision: main  # または最新commit
   self:
     path: config
