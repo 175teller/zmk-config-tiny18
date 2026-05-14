@@ -173,14 +173,14 @@
             layers = <0>;
         };
 
-        lang1 {
-            bindings = <&kp LANGUAGE_1>;
+        lang2 {
+            bindings = <&kp LANGUAGE_2>;
             key-positions = <6 14>;
             layers = <0 1>;
         };
 
-        lang2 {
-            bindings = <&kp LANGUAGE_2>;
+        lang1 {
+            bindings = <&kp LANGUAGE_1>;
             key-positions = <6 15>;
             layers = <0 1>;
         };
