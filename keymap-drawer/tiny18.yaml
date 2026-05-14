@@ -128,7 +128,7 @@ layers:
   - '&ipad'
   - '&iphone'
   - {t: BT, h: '2'}
-  - {t: BT, h: '4'}
+  - '&windows'
   - '&mkp MB4'
   - '&mkp MB5'
   - {t: BT, h: '3'}
