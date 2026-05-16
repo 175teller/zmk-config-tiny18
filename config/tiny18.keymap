@@ -80,7 +80,7 @@
         space {
             bindings = <&kp SPACE>;
             key-positions = <14 15>;
-            layers = <0 1>;
+            layers = <0 1 2>;
         };
 
         tab {
@@ -122,25 +122,25 @@
         period {
             bindings = <&kp PERIOD>;
             key-positions = <8 9>;
-            layers = <0 1>;
+            layers = <0 1 2>;
         };
 
         comma {
             bindings = <&kp COMMA>;
             key-positions = <7 8>;
-            layers = <0 1>;
+            layers = <0 1 2>;
         };
 
         right {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <8 14>;
-            layers = <0 1>;
+            layers = <0 1 2>;
         };
 
         left {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <14 7>;
-            layers = <0 1>;
+            layers = <0 1 2>;
         };
 
         minus {
@@ -176,13 +176,13 @@
         lang2 {
             bindings = <&kp LANGUAGE_2>;
             key-positions = <6 14>;
-            layers = <0 1>;
+            layers = <0 1 2>;
         };
 
         lang1 {
             bindings = <&kp LANGUAGE_1>;
             key-positions = <6 15>;
-            layers = <0 1>;
+            layers = <0 1 2>;
         };
 
         Ctrl {
@@ -239,13 +239,31 @@
             label = "IPHONE_MACRO";
         };
 
-        windows: windows {
+        windows_zisaku: windowszisaku {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <200>;
             tap-ms = <200>;
             bindings = <&bt BT_SEL 4 &to 0>;
-            label = "WINDOWS";
+            label = "WINDOWSZISAKU";
+        };
+
+        windows_free1: windows_free1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <200>;
+            tap-ms = <200>;
+            bindings = <&bt BT_SEL 2 &to 0>;
+            label = "WINDOWS_FREE1";
+        };
+
+        windows_free2: windows_free2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <200>;
+            tap-ms = <200>;
+            bindings = <&bt BT_SEL 3 &to 0>;
+            label = "WINDOWS_FREE2";
         };
     };
 
@@ -266,7 +284,7 @@
 
         layer_2 {
             bindings = <
-&kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &mt RCTRL HOME  &kp UP_ARROW  &mt RIGHT_GUI END  &kp NUMBER_1  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &mt RIGHT_SHIFT ENTER  &kp NUMBER_2  &kp NUMBER_3  &trans  &kp RIGHT_ALT
+&kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &mt RCTRL HOME  &kp UP_ARROW  &mt RIGHT_GUI END  &kp NUMBER_1  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &mt RIGHT_SHIFT ENTER  &kp NUMBER_2  &kp NUMBER_3  &trans  &mt RIGHT_ALT BACKSPACE
             >;
         };
 
@@ -284,13 +302,13 @@
 
         layer_5 {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp LEFT_ALT  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp GLOBE  &trans  &trans  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp LEFT_ALT  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp GLOBE  &trans  &kp K_MUTE  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN
             >;
         };
 
         layer_6 {
             bindings = <
-&mkp MB1  &mmv MOVE_UP  &mkp MB2  &msc SCRL_UP  &bt BT_CLR  &msc SCRL_DOWN  &kp LEFT_SHIFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &ipad  &iphone  &bt BT_SEL 2  &windows  &mkp MB4  &mkp MB5  &bt BT_SEL 3  &trans
+&mkp MB1  &mmv MOVE_UP  &mkp MB2  &msc SCRL_UP  &ipad  &iphone  &kp LEFT_SHIFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  &windows_free1  &windows_free2  &windows_zisaku  &mkp MB4  &mkp MB5  &bt BT_CLR  &trans
             >;
         };
     };
