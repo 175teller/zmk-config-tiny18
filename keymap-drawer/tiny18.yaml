@@ -56,7 +56,7 @@ layers:
   - '2'
   - '3'
   - {type: held}
-  - RIGHT ALT
+  - {t: BACKSPACE, h: RIGHT ALT}
   '3':
   - {t: ▽, type: trans}
   - Gui+UP ARROW
@@ -111,7 +111,7 @@ layers:
   - F12
   - GLOBE
   - {type: held}
-  - {t: ▽, type: trans}
+  - MUTE
   - VOLUME UP
   - VOLUME DOWN
   '6':
@@ -119,19 +119,19 @@ layers:
   - '&mmv MOVE_UP'
   - '&mkp MB2'
   - '&msc SCRL_UP'
-  - BT CLR
-  - '&msc SCRL_DOWN'
+  - '&ipad'
+  - '&iphone'
   - LEFT SHIFT
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
-  - '&ipad'
-  - '&iphone'
-  - {t: BT, h: '2'}
-  - '&windows'
+  - '&msc SCRL_DOWN'
+  - '&windows_free1'
+  - '&windows_free2'
+  - '&windows_zisaku'
   - '&mkp MB4'
   - '&mkp MB5'
-  - {t: BT, h: '3'}
+  - BT CLR
   - {type: held}
 combos:
 - p: [1, 0]
@@ -169,7 +169,7 @@ combos:
   l: [default, '1']
 - p: [14, 15]
   k: SPACE
-  l: [default, '1']
+  l: [default, '1', '2']
 - p: [6, 7]
   k: TAB
   l: [default, '1']
@@ -190,16 +190,16 @@ combos:
   l: [default, '1']
 - p: [8, 9]
   k: .
-  l: [default, '1']
+  l: [default, '1', '2']
 - p: [7, 8]
   k: ','
-  l: [default, '1']
+  l: [default, '1', '2']
 - p: [8, 14]
   k: ']'
-  l: [default, '1']
+  l: [default, '1', '2']
 - p: [14, 7]
   k: '['
-  l: [default, '1']
+  l: [default, '1', '2']
 - p: [1, 2]
   k: '-'
   l: [default, '1']
@@ -217,10 +217,10 @@ combos:
   l: [default]
 - p: [6, 14]
   k: LANGUAGE 2
-  l: [default, '1']
+  l: [default, '1', '2']
 - p: [6, 15]
   k: LANGUAGE 1
-  l: [default, '1']
+  l: [default, '1', '2']
 - p: [12, 13]
   k: RCTRL
   l: [default]
