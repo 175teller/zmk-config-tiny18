@@ -214,6 +214,12 @@
             key-positions = <1 2>;
             layers = <2>;
         };
+
+        mute {
+            bindings = <&kp C_MUTE>;
+            key-positions = <16 17>;
+            layers = <5>;
+        };
     };
 
     macros {
@@ -302,7 +308,7 @@
 
         layer_5 {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp LEFT_ALT  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp GLOBE  &trans  &kp C_MUTE  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp LEFT_ALT  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp GLOBE  &trans  &kp ESC  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN
             >;
         };
 
