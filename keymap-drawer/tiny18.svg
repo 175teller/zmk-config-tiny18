@@ -970,7 +970,7 @@ path.combo {
 </g>
 <g transform="translate(240, 150)" class="key keypos-15">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
-<text x="0" y="0" class="key tap">MUTE</text>
+<text x="0" y="0" class="key tap">ESC</text>
 </g>
 <g transform="translate(420, 150)" class="key keypos-16">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
@@ -983,6 +983,10 @@ path.combo {
 <text x="0" y="0" class="key tap">
 <tspan x="0" dy="-0.6em">VOLUME</tspan><tspan x="0" dy="1.2em">DOWN</tspan>
 </text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="436" y="137" width="28" height="26" class="combo"/>
+<text x="450" y="150" class="combo tap">MUTE</text>
 </g>
 </g>
 </g>

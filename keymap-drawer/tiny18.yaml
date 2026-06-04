@@ -111,7 +111,7 @@ layers:
   - F12
   - GLOBE
   - {type: held}
-  - MUTE
+  - ESC
   - VOLUME UP
   - VOLUME DOWN
   '6':
@@ -236,3 +236,6 @@ combos:
 - p: [1, 2]
   k: '0'
   l: ['2']
+- p: [16, 17]
+  k: MUTE
+  l: ['5']
