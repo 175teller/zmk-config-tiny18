@@ -111,7 +111,7 @@ layers:
   - F12
   - GLOBE
   - {type: held}
-  - ESC
+  - ESCAPE
   - VOLUME UP
   - VOLUME DOWN
   '6':
