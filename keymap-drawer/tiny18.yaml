@@ -183,20 +183,14 @@ combos:
 - p: [6, 15]
   k: LANGUAGE 1
   l: [default, '1']
-- p: [12, 13]
-  k: RCTRL
-  l: [default]
-- p: [5, 13]
-  k: RIGHT GUI
-  l: [default]
-- p: [5, 13]
-  k: GLOBE
-  l: ['1']
-- p: [12, 13]
-  k: RIGHT GUI
 - p: [1, 2]
   k: '0'
   l: ['1']
 - p: [3, 5]
   k: MUTE
   l: ['4']
+- p: [5, 13]
+  k: RIGHT GUI
+  l: [default]
+- p: [12, 13]
+  k: RCTRL
