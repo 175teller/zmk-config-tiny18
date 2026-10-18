@@ -491,10 +491,6 @@ path.combo {
 <rect rx="6" ry="6" x="166" y="17" width="28" height="26" class="combo"/>
 <text x="180" y="30" class="combo tap">0</text>
 </g>
-<g class="combo combopos-8">
-<rect rx="6" ry="6" x="586" y="100" width="28" height="26" class="combo"/>
-<text x="600" y="112" class="combo tap">RCTRL</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 472)" class="layer-2">
@@ -603,10 +599,6 @@ path.combo {
 <tspan x="0" dy="-1.2em">Sft+Gui</tspan><tspan x="0" dy="1.2em">+RIGHT</tspan><tspan x="0" dy="1.2em">ARROW</tspan>
 </text>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="586" y="100" width="28" height="26" class="combo"/>
-<text x="600" y="112" class="combo tap">RCTRL</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 708)" class="layer-3">
@@ -686,10 +678,6 @@ path.combo {
 <g transform="translate(480, 150)" class="key keypos-17">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">RCTRL</text>
-</g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="586" y="100" width="28" height="26" class="combo"/>
-<text x="600" y="112" class="combo tap">RCTRL</text>
 </g>
 </g>
 </g>
@@ -809,10 +797,6 @@ path.combo {
 <path d="M510,30 l40,0" class="combo"/>
 <rect rx="6" ry="6" x="496" y="17" width="28" height="26" class="combo"/>
 <text x="510" y="30" class="combo tap">MUTE</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="586" y="100" width="28" height="26" class="combo"/>
-<text x="600" y="112" class="combo tap">RCTRL</text>
 </g>
 </g>
 </g>
