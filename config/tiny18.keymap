@@ -185,29 +185,6 @@
             layers = <0 1>;
         };
 
-        Ctrl {
-            bindings = <&kp RCTRL>;
-            key-positions = <12 13>;
-            layers = <0>;
-        };
-
-        Cmd {
-            bindings = <&kp RIGHT_GUI>;
-            key-positions = <5 13>;
-            layers = <0>;
-        };
-
-        Globe {
-            bindings = <&kp GLOBE>;
-            key-positions = <5 13>;
-            layers = <1>;
-        };
-
-        Cmd2 {
-            bindings = <&kp RIGHT_GUI>;
-            key-positions = <12 13>;
-        };
-
         Zero {
             bindings = <&kp NUMBER_0>;
             key-positions = <1 2>;
@@ -218,6 +195,17 @@
             bindings = <&kp C_MUTE>;
             key-positions = <3 5>;
             layers = <4>;
+        };
+
+        gui {
+            bindings = <&kp RIGHT_GUI>;
+            key-positions = <5 13>;
+            layers = <0>;
+        };
+
+        ctrl {
+            bindings = <&kp RCTRL>;
+            key-positions = <12 13>;
         };
     };
 
