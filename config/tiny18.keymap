@@ -206,6 +206,7 @@
         ctrl {
             bindings = <&kp RCTRL>;
             key-positions = <12 13>;
+            layers = <0>;
         };
     };
 
